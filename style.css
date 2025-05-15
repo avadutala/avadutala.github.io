@@ -11,12 +11,18 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 100px 20px;
+    padding: 120px 20px;
     text-align: center;
 }
 .hero h1 {
     margin: 0;
     font-size: 3em;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
 }
 .container {
     max-width: 800px;
