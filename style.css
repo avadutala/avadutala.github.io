@@ -11,18 +11,23 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 120px 20px;
+    padding: 60px 20px;
     text-align: center;
 }
 .hero h1 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2.5em;
+}
+nav {
+    margin-top: 20px;
 }
 nav a {
-    margin: 0 15px;
+    display: inline-block;
+    margin: 8px 12px;
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
+    font-size: 1em;
 }
 .container {
     max-width: 800px;
@@ -34,4 +39,22 @@ h2 {
 }
 a {
     color: #0077cc;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .hero {
+        padding: 40px 15px;
+    }
+    .hero h1 {
+        font-size: 2em;
+    }
+    nav a {
+        display: block;
+        margin: 10px auto;
+        font-size: 1.1em;
+    }
+    .container {
+        padding: 15px;
+    }
 }
