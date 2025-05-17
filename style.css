@@ -1,60 +1,45 @@
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #333;
 }
-.hero {
-    background-image: url('hero.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
-}
-.hero h1 {
-    margin: 0;
-    font-size: 2.5em;
+header img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 nav {
-    margin-top: 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
 }
 nav a {
-    display: inline-block;
-    margin: 8px 12px;
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 1em;
+  margin: 0 20px;
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
 }
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
+nav a:hover {
+  color: #005fa3;
+}
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
 }
 h2 {
-    color: #0077cc;
+  color: #007acc;
 }
-a {
-    color: #0077cc;
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-    .hero {
-        padding: 40px 15px;
-    }
-    .hero h1 {
-        font-size: 2em;
-    }
-    nav a {
-        display: block;
-        margin: 10px auto;
-        font-size: 1.1em;
-    }
-    .container {
-        padding: 15px;
-    }
+footer {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 40px;
 }
