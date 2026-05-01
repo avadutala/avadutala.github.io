@@ -178,3 +178,12 @@ a.card:hover h2, a.card:hover h3 { color: var(--accent); }
 @media (max-width: 520px) {
   .travel-stats { grid-template-columns: 1fr; }
 }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+@media (max-width: 760px) {
+  .card-grid { grid-template-columns: 1fr; }
+}
