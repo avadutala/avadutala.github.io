@@ -23,9 +23,14 @@
   <title>Vidya Sagar Avadutala | A personal notebook</title>
   <link rel="canonical" href="https://www.avadutala.com/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="home.css">
-  <script src="site.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=20261023-all-motion">
+  <link rel="stylesheet" href="home.css?v=20261023-all-motion">
+  <link rel="stylesheet" href="motion.css?v=20261023-all-motion">
+  <script src="site.js?v=20261023-all-motion" defer></script>
+  <script src="home-bike.js?v=20261023-all-motion" defer></script>
+  <script src="home-gramophone.js?v=20261023-all-motion" defer></script>
+  <script src="home-tennis.js?v=20261023-all-motion" defer></script>
+  <script src="motion.js?v=20261023-all-motion" defer></script>
 </head>
 <body class="page-index">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -44,6 +49,8 @@
   </nav>
 </header>
 <main id="main" tabindex="-1">
+<span class="visually-hidden" id="motion-help">Controls all animated illustrations on this page. Your choice is remembered across the website when browser storage is available.</span>
+<span class="visually-hidden" id="motion-status" role="status" aria-live="polite"></span>
 <section class="home-hero">
   <div class="hero-copy">
     <p class="eyebrow"><span class="live-dot"></span> Engineering. Music. A life of curiosity.</p>
@@ -53,18 +60,314 @@
     <p class="hero-note">From Vizag to Phoenix—a personal notebook for the work I do, the places I go, and the things that stay with me.</p>
     <div class="actions"><a class="button" href="engineering.html">Explore my engineering work <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a><a class="text-link" href="music.html">The music of my life <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
   </div>
-  <figure class="hero-art"><img src="assets/trail-landscape.svg" width="1000" height="800" alt="An illustrated mountain biker following a winding trail through a warm desert landscape."><figcaption><span><span class="eyebrow">A new favorite</span><strong>Finding joy on the trail.</strong></span><a href="interests.html#mountain-biking" class="round-link" aria-label="Read about my mountain biking interest"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></figcaption></figure>
+  <figure class="hero-art"><div class="scene-frame bike-scene-frame" id="home-bike-illustration">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" fill="none" role="img" aria-labelledby="bike-scene-title bike-scene-desc" data-motion-scene="bike" class="motion-scene bike-scene">
+  <title id="bike-scene-title">Finding joy on the trail</title>
+  <desc id="bike-scene-desc">A helmeted mountain biker pedals along a winding sand trail through layered desert hills. The wheels turn as the bicycle follows the trail.</desc>
+  <defs>
+    <linearGradient id="bike-sky" x1="500" y1="0" x2="500" y2="600" gradientUnits="userSpaceOnUse"><stop stop-color="#F4EDE0"/><stop offset="1" stop-color="#E9DDC4"/></linearGradient>
+    <linearGradient id="bike-hills" x1="190" y1="450" x2="876" y2="843" gradientUnits="userSpaceOnUse"><stop stop-color="#5D7865"/><stop offset="1" stop-color="#2A5349"/></linearGradient>
+    <clipPath id="bike-bounds"><path d="M0 0h1000v800H0z"/></clipPath>
+  </defs>
+  <g clip-path="url(#bike-bounds)">
+    <path fill="url(#bike-sky)" d="M0 0h1000v800H0z"/>
+    <circle cx="780" cy="143" r="75" fill="#D99660"/>
+    <circle cx="780" cy="143" r="94" stroke="#D99660" stroke-opacity=".18"/>
+    <path d="M-55 302 74 254 143 293 252 219 301 235 363 169 457 249 535 224 624 309 709 241 808 303 905 240 1036 311V539H-55Z" fill="#CEB59B"/>
+    <path d="m242 226 59 9 62-66 95 81-58-22-27 18-39-15-35 26Z" fill="#E0CDB3"/>
+    <path d="M-39 391 55 324 148 351 230 288 331 368 408 324 472 353 541 303 634 369 718 338 790 280 878 367 962 323 1040 356V582H-39Z" fill="#AF8E77"/>
+    <path d="m711 344 79-64 88 87-62-35-27 14-22-19Z" fill="#C5A48A"/>
+    <path d="M-35 431C51 398 104 429 181 402c68-24 96-21 164 13 68 35 112 25 169 1 83-35 147-24 215 0 92 31 153-28 306-23v407H-35Z" fill="#8D9B7E"/>
+    <path d="M-18 481c97-18 159-5 234 21 126 44 201-78 341-63 129 15 183 112 329 83 78-15 117-53 159-55v333H-18Z" fill="url(#bike-hills)"/>
+    <g stroke="#A9B694" stroke-width="2" stroke-linecap="round" opacity=".36">
+      <path d="M-5 522c108-13 160 28 240 24 84-5 135-55 197-59"/>
+      <path d="M-24 551c121-26 178 33 265 19 75-11 128-57 196-61"/>
+      <path d="M604 676c172-78 251-52 422-113"/>
+      <path d="M562 714c179-81 279-60 465-115"/>
+    </g>
+    <!-- The bicycle follows this exact centreline. Both tire contacts sit on its chord. -->
+    <path d="M-160 650C-20 690 90 663 230 610C375 554 440 638 595 580C760 518 885 555 1160 455" stroke="#294F41" stroke-opacity=".2" stroke-width="94" stroke-linecap="round" transform="translate(0 7)"/>
+    <path d="M-160 650C-20 690 90 663 230 610C375 554 440 638 595 580C760 518 885 555 1160 455" stroke="#CBBE93" stroke-width="88" stroke-linecap="round"/>
+    <path id="bike-trail-path" data-bike-path="" d="M-160 650C-20 690 90 663 230 610C375 554 440 638 595 580C760 518 885 555 1160 455" stroke="#EAD9B2" stroke-width="70" stroke-linecap="round"/>
+    <path d="M-160 650C-20 690 90 663 230 610C375 554 440 638 595 580C760 518 885 555 1160 455" stroke="#F6EACB" stroke-opacity=".4" stroke-width="2" stroke-dasharray="2 91 4 78" stroke-linecap="round"/>
+    <g fill="#47634F">
+      <path d="m139 448-7-27-6 25-8-10 6 19h20l6-16Z"/>
+      <path d="m387 477-5-21-5 20-8-8 6 15h16l5-15Z"/>
+      <path d="m831 469-5-20-6 20-8-9 5 16h20l5-18Z"/>
+    </g>
+    <g fill="#D5BA8C" opacity=".78">
+      <path d="m163 642 11-4 9 4-13 2Z"/><path d="m478 621 10-4 8 4-11 2Z"/>
+      <path d="m738 575 9-4 12 5-15 1Z"/><path d="m896 510 7-3 10 3-11 2Z"/>
+    </g>
+    <!-- A useful still pose is included for reduced-motion and JavaScript-free viewing. -->
+    <g data-bike-rider="" transform="translate(421.55 595.56) rotate(4.39) scale(1.25)">
+      <ellipse cx="0" cy="4" rx="89" ry="7" fill="#586449" opacity=".23"/>
+      <g transform="translate(-59 -34)">
+        <circle r="31" stroke="#233C34" stroke-width="6"/>
+        <circle r="26" stroke="#D9DAB9" stroke-opacity=".8" stroke-width="1"/>
+        <g data-bike-wheel="rear" stroke="#A8B095" stroke-width="1.2"><path d="M-27 0h54M0-27v54m-19-46 38 38m-38 0 38-38"/><circle r="3" fill="#233C34" stroke="none"/></g>
+      </g>
+      <g transform="translate(59 -34)">
+        <circle r="31" stroke="#233C34" stroke-width="6"/>
+        <circle r="26" stroke="#D9DAB9" stroke-opacity=".8" stroke-width="1"/>
+        <g data-bike-wheel="front" stroke="#A8B095" stroke-width="1.2"><path d="M-27 0h54M0-27v54m-19-46 38 38m-38 0 38-38"/><circle r="3" fill="#233C34" stroke="none"/></g>
+      </g>
+      <path data-bike-leg="far" d="M-23-101L7.02-71.62-21-39" stroke="#B98560" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path data-bike-shoe="far" d="M-25-37h16" stroke="#233C34" stroke-width="6" stroke-linecap="round"/>
+      <g stroke="#E7E4C9" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M-59-34-31-89-5-34H-59M-31-89 25-87-5-34M25-87 59-34"/>
+        <path d="M-31-89-35-100M25-87 21-102 34-106"/>
+      </g>
+      <path d="M-46-102h23M32-106h11" stroke="#233C34" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-59-34-5-28M-59-34-5-40" stroke="#A1A887" stroke-width="1.3"/>
+      <circle cx="-5" cy="-34" r="7" fill="#233C34"/>
+      <path data-bike-crank="" d="M-19-34H9" stroke="#233C34" stroke-width="3" stroke-linecap="round"/>
+      <path data-bike-pedal="far" d="M-24-34h10" stroke="#233C34" stroke-width="3" stroke-linecap="round"/>
+      <path data-bike-pedal="near" d="M4-34h10" stroke="#233C34" stroke-width="3" stroke-linecap="round"/>
+      <path data-bike-leg="near" d="M-23-101L14.15-81.40 7-39" stroke="#D6AB7E" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      <path data-bike-shoe="near" d="M3-37h16" stroke="#233C34" stroke-width="6" stroke-linecap="round"/>
+      <path d="M-32-107-12-99-17-88-37-94Z" fill="#253F35"/>
+      <path d="M-34-108C-21-125-5-137 17-138L29-123C7-120-8-107-15-97Z" fill="#C96943"/>
+      <path d="M-28-107C-17-119-7-128 6-133" stroke="#E3A47C" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/>
+      <path d="M23-132 33-117 38-107" stroke="#D6AB7E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M21-132 27-124" stroke="#C96943" stroke-width="12" stroke-linecap="round"/>
+      <path d="M35-107h7" stroke="#233C34" stroke-width="5" stroke-linecap="round"/>
+      <path d="M23-140 29-147" stroke="#C28C63" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="35" cy="-155" r="11" fill="#D6AB7E"/>
+      <path d="M23-158c1-11 15-16 24-7l3 10-27 1Z" fill="#263F36"/>
+      <path d="M46-156h9M29-164l3 6m5-8 2 6" stroke="#263F36" stroke-width="4" stroke-linecap="round"/>
+      <path d="M30-153 36-143 43-152" stroke="#263F36" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <path d="M-20 734c81-51 114-50 190-16 67 30 96 37 182 82H-20Z" fill="#294F41"/>
+    <path d="M806 800c43-62 109-83 214-66v66Z" fill="#22483E"/>
+    <g stroke="#74916C" stroke-width="4" stroke-linecap="round">
+      <path d="M112 782v-66m0 43-19-21m19 12 17-26M852 778v-49m0 30-13-14m13 4 13-16"/>
+    </g>
+    <g fill="#879B76"><ellipse cx="90" cy="733" rx="5" ry="13" transform="rotate(-39 90 733)"/><ellipse cx="130" cy="720" rx="5" ry="13" transform="rotate(29 130 720)"/><ellipse cx="112" cy="712" rx="5" ry="13"/></g>
+  </g>
+</svg>
+<button class="motion-toggle" type="button" data-motion-toggle hidden aria-describedby="motion-help"><svg viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><g data-pause-icon><rect x="3" y="2" width="3" height="12" rx=".5"/><rect x="10" y="2" width="3" height="12" rx=".5"/></g><path data-play-icon d="M4 2 14 8 4 14Z"/></svg><span data-motion-label>Pause motion</span></button></div><figcaption><span><span class="eyebrow">A new favorite</span><strong>Finding joy on the trail.</strong></span><a href="interests.html#mountain-biking" class="round-link" aria-label="Read about my mountain biking interest"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></figcaption></figure>
 </section>
 <section class="current-strip" aria-label="A few things about me"><span>Part of my life</span><a href="interests.html#mountain-biking"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5.5" cy="16" r="4"/><circle cx="18.5" cy="16" r="4"/><path d="m5.5 16 5-9 4 9h-9l3-6h8m2 6-3-11h-3M8 7h5"/></svg> Enjoying mountain biking</a><a href="interests.html#tennis"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="14" cy="9" rx="5" ry="7" transform="rotate(35 14 9)"/><path d="m10 14-6 8m7-17 7 5M9 8l7 5m-4-9-3 7m7-6-4 9"/></svg> Still loving tennis</a><a href="music.html"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13M9 8l12-2"/><ellipse cx="6" cy="18" rx="3" ry="2.5"/><ellipse cx="18" cy="16" rx="3" ry="2.5"/></svg> Always Ilaiyaraaja</a></section>
 <section class="home-music" aria-labelledby="home-music-title">
-  <figure class="home-music-art"><img src="assets/music-a-lifetime.svg" width="800" height="730" alt="Original record-inspired artwork dedicated to Ilaiyaraaja." loading="lazy"></figure>
+  <figure class="home-music-art"><div class="scene-frame gramophone-scene-frame" id="home-gramophone-illustration">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 730" fill="none" role="img" aria-labelledby="gram-title gram-desc" data-motion-scene="gramophone" class="motion-scene gramophone-scene">
+  <title id="gram-title">A lifetime of music, one record at a time</title>
+  <desc id="gram-desc">An original brass-horn gramophone on a walnut cabinet. Its Ilaiyaraaja record turns gently beneath a still tonearm.</desc>
+  <defs>
+    <linearGradient id="gram-paper" x1="60" y1="35" x2="730" y2="710" gradientUnits="userSpaceOnUse"><stop stop-color="#F2EBDC"/><stop offset="1" stop-color="#DFD1AF"/></linearGradient>
+    <linearGradient id="gram-brass" x1="372" y1="145" x2="608" y2="387" gradientUnits="userSpaceOnUse"><stop stop-color="#DFBE77"/><stop offset=".3" stop-color="#B28C4E"/><stop offset=".65" stop-color="#E5C987"/><stop offset="1" stop-color="#8C6B3D"/></linearGradient>
+    <radialGradient id="gram-bell" cx="0" cy="0" r="1" gradientTransform="translate(386 248) rotate(-155) scale(254 203)" gradientUnits="userSpaceOnUse"><stop stop-color="#59472E"/><stop offset=".16" stop-color="#81613B"/><stop offset=".43" stop-color="#B18D52"/><stop offset=".73" stop-color="#D8B972"/><stop offset="1" stop-color="#EBD59E"/></radialGradient>
+    <linearGradient id="gram-rim" x1="212" y1="108" x2="404" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="#F5E4B6"/><stop offset=".45" stop-color="#D4B06C"/><stop offset="1" stop-color="#AA8047"/></linearGradient>
+    <linearGradient id="gram-wood-top" x1="238" y1="388" x2="420" y2="526" gradientUnits="userSpaceOnUse"><stop stop-color="#AC8057"/><stop offset="1" stop-color="#826044"/></linearGradient>
+    <linearGradient id="gram-wood-front" x1="155" y1="500" x2="560" y2="633" gradientUnits="userSpaceOnUse"><stop stop-color="#835B41"/><stop offset=".5" stop-color="#986C4B"/><stop offset="1" stop-color="#71503B"/></linearGradient>
+    <linearGradient id="gram-wood-side" x1="568" y1="510" x2="670" y2="564" gradientUnits="userSpaceOnUse"><stop stop-color="#674B37"/><stop offset="1" stop-color="#513E30"/></linearGradient>
+    <radialGradient id="gram-vinyl" cx="0" cy="0" r="1" gradientTransform="translate(-44 -43) rotate(45) scale(240)" gradientUnits="userSpaceOnUse"><stop stop-color="#36574B"/><stop offset=".55" stop-color="#173E34"/><stop offset="1" stop-color="#102F28"/></radialGradient>
+    <linearGradient id="gram-arm" x1="457" y1="454" x2="592" y2="473" gradientUnits="userSpaceOnUse"><stop stop-color="#D8BD7E"/><stop offset=".45" stop-color="#F0DCAC"/><stop offset="1" stop-color="#A27D44"/></linearGradient>
+    <clipPath id="gram-bounds"><path d="M0 0h800v730H0z"/></clipPath>
+    <clipPath id="gram-bell-clip"><ellipse cx="310" cy="231" rx="167" ry="128" transform="rotate(-21 310 231)"/></clipPath>
+  </defs>
+  <g clip-path="url(#gram-bounds)">
+    <path fill="url(#gram-paper)" d="M0 0h800v730H0z"/>
+    <circle cx="345" cy="280" r="236" fill="#F7F0E0" fill-opacity=".45"/>
+    <circle cx="345" cy="280" r="254" stroke="#B79E73" stroke-opacity=".15"/>
+    <g stroke="#AF996E" stroke-opacity=".2" stroke-width="1.2">
+      <path d="M-20 611c120-60 180 54 300 21 126-35 168-111 308-73 82 22 141 49 232 8"/>
+      <path d="M-20 627c120-60 180 54 300 21 126-35 168-111 308-73 82 22 141 49 232 8"/>
+      <path d="M-20 643c120-60 180 54 300 21 126-35 168-111 308-73 82 22 141 49 232 8"/>
+    </g>
+    <ellipse cx="410" cy="642" rx="283" ry="35" fill="#595D40" fill-opacity=".13"/>
+    <!-- The gramophone case and platter share a gently oblique perspective. -->
+    <path d="m159 584 33 3v37l-9 7-24-3Zm364 32 29 3v31l-8 7-21-3Zm101-41 24-13v28l-24 16Z" fill="#503F2E"/>
+    <path d="m129 489 96-100 443 43-96 105Z" fill="url(#gram-wood-top)"/>
+    <path d="m129 489 443 48v101l-443-48Z" fill="url(#gram-wood-front)"/>
+    <path d="m572 537 96-105v105l-96 101Z" fill="url(#gram-wood-side)"/>
+    <path d="m123 482 102-103 450 44-103 112Z" fill="#AA8259"/>
+    <path d="m135 482 94-94 433 42-94 98Z" fill="url(#gram-wood-top)"/>
+    <path d="m123 482 449 49v13l-449-49Z" fill="#B48C60"/>
+    <path d="m572 531 103-108v14L572 544Z" fill="#7A593C"/>
+    <path d="m123 585 449 49v15l-449-50Z" fill="#664A34"/>
+    <path d="m572 634 103-108v15L572 649Z" fill="#44362A"/>
+    <path d="m153 511 393 43v57l-393-43Z" stroke="#C49B6D" stroke-opacity=".4"/>
+    <path d="m162 520 375 40m-375-27 375 40m-375-23 375 40" stroke="#4E3E2E" stroke-opacity=".13"/>
+    <path d="m145 593 405 44" stroke="#C09A6B" stroke-opacity=".45" stroke-width="2"/>
+    <!-- A quiet engraved plate makes the illustration a personal tribute. -->
+    <g transform="translate(352 565) rotate(6)">
+      <rect x="-99" y="-19" width="198" height="38" rx="3" fill="#D2B373"/>
+      <rect x="-93" y="-13" width="186" height="26" rx="1" stroke="#765C38" stroke-opacity=".55"/>
+      <circle cx="-85" r="2" fill="#765C38"/><circle cx="85" r="2" fill="#765C38"/>
+      <text x="0" y="5" text-anchor="middle" fill="#59482F" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="1.2">Ilaiyaraaja</text>
+    </g>
+    <!-- The hand crank belongs to the case and does not spin with the record. -->
+    <ellipse cx="640" cy="522" rx="7" ry="11" transform="rotate(40 640 522)" fill="#AC8950"/>
+    <path d="m641 520 54 17v29l22 7" stroke="#A88B58" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m717 563 1 22" stroke="#34463A" stroke-width="12" stroke-linecap="round"/>
+    <!-- Fixed support sits behind the turntable and brass horn. -->
+    <path d="M591 433V354" stroke="#725A36" stroke-width="21" stroke-linecap="round"/>
+    <path d="M586 430V355" stroke="#C3A364" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="591" cy="439" rx="28" ry="11" fill="#745B35"/>
+    <ellipse cx="591" cy="434" rx="28" ry="11" fill="#C5A46A"/>
+    <!-- The outer transform compresses the rotating circular vinyl into an ellipse. -->
+    <ellipse cx="382" cy="475" rx="185" ry="67" fill="#473E2D" fill-opacity=".25"/>
+    <ellipse cx="382" cy="467" rx="184" ry="64" fill="#B9A46F"/>
+    <ellipse cx="382" cy="462" rx="183" ry="62" fill="#DFCC95"/>
+    <g transform="translate(382 460) scale(1 .34)">
+      <g data-gram-record="" transform="rotate(0)">
+        <circle r="179" fill="url(#gram-vinyl)"/>
+        <g stroke="#A5B397" stroke-opacity=".26" stroke-width="1.1">
+          <circle r="170"/><circle r="163"/><circle r="156"/><circle r="149"/><circle r="142"/><circle r="135"/><circle r="128"/><circle r="121"/><circle r="114"/><circle r="107"/><circle r="100"/><circle r="93"/><circle r="86"/><circle r="79"/>
+        </g>
+        <path d="M0 0 132-121A179 179 0 0 0 94-152ZM0 0-145 105a179 179 0 0 0 35 36Z" fill="#D6D7B5" fill-opacity=".15"/>
+        <path d="M0 0 155-89a179 179 0 0 0-9-15ZM0 0-158 84a179 179 0 0 0 8 14Z" fill="#C9D0AD" fill-opacity=".1"/>
+        <circle r="67" fill="#B66E49"/>
+        <circle r="60" stroke="#ECCCA5" stroke-opacity=".55" stroke-width="1.5"/>
+        <path d="M-39-5h78M-23 35h46" stroke="#E9C69F" stroke-opacity=".7" stroke-width="1.5"/>
+        <text x="0" y="-19" text-anchor="middle" fill="#FFF0D8" font-family="Georgia, 'Times New Roman', serif" font-size="15">Ilaiyaraaja</text>
+        <text x="0" y="26" text-anchor="middle" fill="#FFE5BF" font-family="Arial, sans-serif" font-size="7.5" letter-spacing="1.6">ALWAYS</text>
+        <circle cx="0" cy="-47" r="3" fill="#E6C696"/>
+        <circle r="11" fill="#DDBD87"/>
+      </g>
+    </g>
+    <!-- The spindle and tonearm remain fixed above the turning vinyl. -->
+    <ellipse cx="382" cy="460" rx="5" ry="2.6" fill="#A39060"/>
+    <path d="M382 460v-8" stroke="#E5D8AA" stroke-width="3" stroke-linecap="round"/>
+    <path d="M591 430c-4 27-28 30-48 27l-40-5c-17-2-26 3-38 17" stroke="#574C32" stroke-opacity=".22" stroke-width="13" stroke-linecap="round"/>
+    <path d="M591 423c-4 27-28 30-48 27l-40-5c-17-2-26 3-38 17" stroke="url(#gram-arm)" stroke-width="12" stroke-linecap="round"/>
+    <ellipse cx="462" cy="465" rx="12" ry="16" transform="rotate(34 462 465)" fill="#5E6248" stroke="#D6BE85" stroke-width="4"/>
+    <path d="m460 479-3 7" stroke="#DED0A5" stroke-width="2" stroke-linecap="round"/>
+    <!-- The broad acoustic horn is drawn last so its rim naturally overlaps the neck. -->
+    <path d="M410 104c57 8 87 57 108 111 16 41 40 67 72 88 32 21 43 50 22 77-11 14-30 17-43 5l-9-14c19-8 23-20 8-34-16-15-46-21-79-22-61-2-103 11-138 18Z" fill="url(#gram-brass)"/>
+    <path d="M442 138c45 26 55 75 81 111 25 36 53 55 69 70 17 16 18 33 5 47" stroke="#F2DAA0" stroke-opacity=".56" stroke-width="4" stroke-linecap="round"/>
+    <path d="M490 303c47 2 76 11 91 28 13 15 9 29-4 38" stroke="#896837" stroke-opacity=".4" stroke-width="2"/>
+    <ellipse cx="310" cy="231" rx="175" ry="136" transform="rotate(-21 310 231)" fill="url(#gram-rim)"/>
+    <ellipse cx="310" cy="231" rx="167" ry="128" transform="rotate(-21 310 231)" fill="url(#gram-bell)"/>
+    <g clip-path="url(#gram-bell-clip)" stroke="#F1DDA6" stroke-opacity=".28" stroke-width="1.8">
+      <path d="M386 248C311 220 263 159 256 85"/>
+      <path d="M386 248C292 259 202 219 127 164"/>
+      <path d="M386 248C330 294 240 317 165 333"/>
+      <path d="M386 248C387 301 354 345 313 379"/>
+      <path d="M386 248C419 256 448 285 472 320"/>
+      <path d="M386 248C420 210 433 172 436 124"/>
+    </g>
+    <path d="M170 198c22-48 61-82 117-98" stroke="#FFF0C9" stroke-opacity=".68" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="310" cy="231" rx="169" ry="130" transform="rotate(-21 310 231)" stroke="#FAE9BE" stroke-opacity=".56" stroke-width="2"/>
+    <path d="M354 691h92" stroke="#8F906F" stroke-opacity=".65"/>
+    <circle cx="400" cy="691" r="3" fill="#B66E49"/>
+  </g>
+</svg>
+<button class="motion-toggle" type="button" data-motion-toggle hidden aria-describedby="motion-help"><svg viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><g data-pause-icon><rect x="3" y="2" width="3" height="12" rx=".5"/><rect x="10" y="2" width="3" height="12" rx=".5"/></g><path data-play-icon d="M4 2 14 8 4 14Z"/></svg><span data-motion-label>Pause motion</span></button></div></figure>
   <div class="home-music-copy"><p class="eyebrow">A lifelong companion</p><h2 id="home-music-title">Always <em>Ilaiyaraaja.</em></h2><blockquote>Music taught me love.<br>Music taught me passion.<br>Music taught me creativity.</blockquote><p>Through sorrow and happiness, his music has been with me in every part of life.</p><a class="text-link" href="music.html">What his music means to me <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
 </section>
-<section class="section">
-  <div class="section-heading"><div><p class="eyebrow">Away from the desk</p><h2>More ways to feel alive.</h2></div><a class="text-link" href="interests.html">My interests <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
-  <div class="interest-pair">
-    <a class="interest-summary trail" href="interests.html#mountain-biking"><div class="interest-top"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5.5" cy="16" r="4"/><circle cx="18.5" cy="16" r="4"/><path d="m5.5 16 5-9 4 9h-9l3-6h8m2 6-3-11h-3M8 7h5"/></svg><span class="small-label">A new passion</span></div><h3>Mountain biking</h3><p>I started riding, and now I’m enjoying every part of it. The trails, the challenge, and the simple pleasure of being on the bike.</p><span class="text-link">Out on the trail <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>
-    <a class="interest-summary court" href="interests.html#tennis"><div class="interest-top"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="14" cy="9" rx="5" ry="7" transform="rotate(35 14 9)"/><path d="m10 14-6 8m7-17 7 5M9 8l7 5m-4-9-3 7m7-6-4 9"/></svg><span class="small-label">A familiar joy</span></div><h3>Tennis</h3><p>Phoenix gave me the gift of playing year-round. Exercise, discipline, competition, and joy—still a favorite part of life.</p><span class="text-link">Time on the court <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></a>
+<section class="section" aria-labelledby="home-outdoors-title">
+  <div class="section-heading"><div><p class="eyebrow">Away from the desk</p><h2 id="home-outdoors-title">More ways to feel alive.</h2></div><a class="text-link" href="interests.html">My interests <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
+  <div class="home-tennis">
+    <div class="home-tennis-copy"><p class="eyebrow">A familiar joy</p><h3>Time on the court.</h3><p>Phoenix gave me the gift of playing year-round. Exercise, discipline, competition, and joy—still a favorite part of life.</p><a class="text-link" href="interests.html#tennis">My tennis story <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+      <div class="home-trail-note"><h4>And out on the trail.</h4><p>I started mountain biking, and now I’m enjoying every part of it. The trails, the challenge, and the simple pleasure of being on the bike.</p><a class="text-link" href="interests.html#mountain-biking">Finding joy in the ride <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
+    </div>
+    <figure class="home-tennis-art"><div class="scene-frame tennis-scene-frame" id="home-tennis-illustration">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" fill="none" role="img" aria-labelledby="rally-title rally-desc" class="motion-scene tennis-scene" data-motion-scene="tennis">
+  <title id="rally-title">A little focus. A lot of joy.</title>
+  <desc id="rally-desc">Two rackets trade a gentle rally across a green tennis court. The ball crosses the net and bounces once on each return, with its shadow following the court below. The singles and doubles lines and net keep their correct proportions.</desc>
+  <!-- Court geometry: 8 drawing units per foot. Doubles court 78 x 36 ft;
+       singles width 27 ft; service lines 21 ft from the net; net posts 3 ft
+       beyond each doubles sideline. ITF Rules of Tennis 2026, Rule 1:
+       https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf -->
+  <defs>
+    <linearGradient id="rally-surround" x1="30" y1="0" x2="800" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A6251"/>
+      <stop offset="1" stop-color="#214A3E"/>
+    </linearGradient>
+    <linearGradient id="rally-surface" x1="88" y1="116" x2="712" y2="404" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#557E65"/>
+      <stop offset="1" stop-color="#3A6855"/>
+    </linearGradient>
+    <linearGradient id="rally-light" x1="160" y1="0" x2="605" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2E5B6" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#183B31" stop-opacity=".09"/>
+    </linearGradient>
+    <clipPath id="rally-bounds"><path d="M0 0h800v520H0z"/></clipPath>
+    <pattern id="rally-net-shadow-mesh" x="400" y="92" width="4" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0H4M0 0V5" stroke="#163A30" stroke-opacity=".34" stroke-width=".8"/>
+    </pattern>
+    <pattern id="rally-strings" x="0" y="0" width="5" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0h5M0 0v5" stroke="#F5F0D7" stroke-opacity=".65" stroke-width=".65"/>
+    </pattern>
+    <radialGradient id="rally-ball-light" cx=".3" cy=".22" r=".9">
+      <stop stop-color="#EFF4B9"/><stop offset=".55" stop-color="#DAE78D"/><stop offset="1" stop-color="#A8BE58"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#rally-bounds)">
+    <path d="M0 0h800v520H0z" fill="url(#rally-surround)"/>
+    <path d="M0 0h800v520H0z" fill="url(#rally-light)"/>
+    <!-- A quiet margin around the playing surface keeps its shape clear. -->
+    <path d="M42 55h716v410H42z" stroke="#E6E0BD" stroke-opacity=".1" stroke-width="1"/>
+    <path d="M88 116h624v288H88z" fill="url(#rally-surface)"/>
+    <path d="M88 116h624v36H88zm0 252h624v36H88z" fill="#2C5748" fill-opacity=".3"/>
+    <path d="M232 152h168v108H232zm168 108h168v108H400z" fill="#D6DAB9" fill-opacity=".035"/>
+    <!-- The outlines measure 624 by 288 units: the 78:36 doubles ratio. -->
+    <g stroke="#F1EED5" stroke-width="1.4" stroke-linejoin="miter">
+      <path d="M88.7 116.7h622.6v286.6H88.7z"/>
+      <path d="M88.7 152h622.6M88.7 368h622.6"/>
+      <path d="M232 152v216M568 152v216M232 260h336"/>
+      <path d="M88.7 260h2.67M708.63 260h2.67"/>
+    </g>
+    <!-- Top-down net: a slim white band, small posts and a subtle mesh shadow. -->
+    <path d="M400 92 411 96v328l-11 4Z" fill="#193C32" fill-opacity=".17"/>
+    <path d="M400 92 411 96v328l-11 4Z" fill="url(#rally-net-shadow-mesh)"/>
+    <path d="M400 92v336" stroke="#173B30" stroke-width="3.4"/>
+    <path d="M399.6 92v336" stroke="#FFF9DD" stroke-width="1.8"/>
+    <path d="M398.6 260h3.2" stroke="#FFF9DD" stroke-width="1.8"/>
+    <g fill="#F1EED5" stroke="#193C32" stroke-width=".8">
+      <circle cx="400" cy="92" r="2"/>
+      <circle cx="400" cy="428" r="2"/>
+    </g>
+    <!-- Soft foliage sits outside the court; all playing lines remain visible. -->
+    <g fill="#173F32" fill-opacity=".25">
+      <path d="M-8 438c28-35 51-27 69-13-27 3-44 8-69 13Z"/>
+      <path d="M-5 468c35-36 60-20 78-2-29-1-48-3-78 2Z"/>
+      <path d="M27 521c-9-28 0-47 17-60 0 27-5 42-17 60Z"/>
+      <path d="M800 16c-30 4-52 1-68-21 33-5 53 0 68 21Z"/>
+      <path d="M814 50c-36-6-53-23-60-48 29 10 42 24 60 48Z"/>
+    </g>
+    <!-- A pair of rackets, with handles outside the respective baselines.
+         The animation rotates each racket about its string-bed centre, so
+         contact stays aligned with the ball even through the little swing. -->
+    <g data-rally-racket-left="" transform="translate(125 198.925) rotate(18)">
+      <g transform="translate(3 4)" opacity=".15" fill="#15392E" stroke="#15392E" stroke-linecap="round">
+        <ellipse rx="22" ry="17"/><path d="M-25 0h-29" stroke-width="8"/>
+      </g>
+      <path d="m-17-10-16 10 16 10" stroke="#D9DDC4" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M-31 0h-22" stroke="#BE7956" stroke-width="7" stroke-linecap="round"/>
+      <path d="M-35-3v6m-5-6v6m-5-6v6m-5-6v6" stroke="#F1D3AD" stroke-opacity=".45" stroke-width=".8"/>
+      <ellipse rx="21" ry="16" fill="#244D3F" stroke="#F5EED4" stroke-width="2.8"/>
+      <ellipse rx="18" ry="13" fill="url(#rally-strings)" stroke="#A8BBA0" stroke-width=".7"/>
+      <path d="M14-11a18 13 0 0 1 5 9" stroke="#FFF7DB" stroke-width="1.1" stroke-linecap="round"/>
+    </g>
+    <g data-rally-racket-right="" transform="translate(675 294.203) rotate(-18)">
+      <g transform="rotate(180)">
+        <g transform="translate(-3 -4)" opacity=".15" fill="#15392E" stroke="#15392E" stroke-linecap="round">
+          <ellipse rx="22" ry="17"/><path d="M-25 0h-29" stroke-width="8"/>
+        </g>
+        <path d="m-17-10-16 10 16 10" stroke="#C4CFAF" stroke-width="2.6" stroke-linejoin="round"/>
+        <path d="M-31 0h-22" stroke="#E1D9B9" stroke-width="7" stroke-linecap="round"/>
+        <path d="M-35-3v6m-5-6v6m-5-6v6m-5-6v6" stroke="#758B68" stroke-opacity=".7" stroke-width=".8"/>
+        <ellipse rx="21" ry="16" fill="#244D3F" stroke="#D8B47C" stroke-width="2.8"/>
+        <ellipse rx="18" ry="13" fill="url(#rally-strings)" stroke="#C0CDA5" stroke-width=".7"/>
+        <path d="M14-11a18 13 0 0 1 5 9" stroke="#F3D8A3" stroke-width="1.1" stroke-linecap="round"/>
+      </g>
+    </g>
+    <!-- The pulse is visible only immediately after a court bounce. -->
+    <ellipse data-rally-bounce="" cx="554" cy="311.2" rx="7" ry="4" stroke="#E4E9AF" stroke-width="1.5" opacity="0"/>
+    <ellipse data-rally-shadow="" cx="305.75" cy="249.5" rx="8.685" ry="3.625" fill="#163D2F" opacity=".152"/>
+    <g data-rally-ball="" transform="translate(303.75 223) scale(1.108)">
+      <g data-rally-spin="" transform="rotate(91)">
+        <circle r="7.8" fill="url(#rally-ball-light)" stroke="#EFF1B6" stroke-width=".8"/>
+        <path d="M-6.1-4.4C-1.7-3.5-1.7 3.5-6.1 4.4M6.1-4.4C1.7-3.5 1.7 3.5 6.1 4.4" stroke="#FBF8D8" stroke-width="1.05" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+</svg>
+<button class="motion-toggle" type="button" data-motion-toggle hidden aria-describedby="motion-help"><svg viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><g data-pause-icon><rect x="3" y="2" width="3" height="12" rx=".5"/><rect x="10" y="2" width="3" height="12" rx=".5"/></g><path data-play-icon d="M4 2 14 8 4 14Z"/></svg><span data-motion-label>Pause motion</span></button></div><figcaption><span>A little focus. A lot of joy.</span><span>One more rally.</span></figcaption></figure>
   </div>
 </section>
 <section class="section">

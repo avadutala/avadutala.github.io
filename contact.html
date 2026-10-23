@@ -23,8 +23,11 @@
   <title>Contact | Vidya Sagar Avadutala</title>
   <link rel="canonical" href="https://www.avadutala.com/contact.html">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script src="site.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=20261023-all-motion">
+  <link rel="stylesheet" href="motion.css?v=20261023-all-motion">
+  <script src="site.js?v=20261023-all-motion" defer></script>
+  <script src="life-scenes.js?v=20261023-all-motion" defer></script>
+  <script src="motion.js?v=20261023-all-motion" defer></script>
 </head>
 <body class="page-contact">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -43,7 +46,58 @@
   </nav>
 </header>
 <main id="main" tabindex="-1">
-<section class="page-hero contact-hero"><p class="eyebrow">Get in touch</p><h1>A good conversation<br><em>starts with hello.</em></h1><p>Whether it’s engineering, Ilaiyaraaja’s music, a good book, or life outdoors, I’m always happy to connect with people who enjoy sharing ideas and staying curious.</p></section>
+<span class="visually-hidden" id="motion-help">Controls all animated illustrations on this page. Your choice is remembered across the website when browser storage is available.</span><span class="visually-hidden" id="motion-status" role="status" aria-live="polite"></span>
+<section class="page-hero contact-hero"><div class="contact-hero-copy"><p class="eyebrow">Get in touch</p><h1>A good conversation<br><em>starts with hello.</em></h1><p>Whether it’s engineering, Ilaiyaraaja’s music, a good book, or life outdoors, I’m always happy to connect with people who enjoy sharing ideas and staying curious.</p></div><figure class="page-motion-art contact-motion-art"><div class="scene-frame"><svg class="motion-scene contact-scene" data-motion-scene="contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none" role="img" aria-labelledby="life-contact-title life-contact-desc">
+  <title id="life-contact-title">A little room for a good conversation</title>
+  <desc id="life-contact-desc">A handwritten note gently rises from an open envelope beside a fountain pen. A paper plane drifts along a curved line in the background.</desc>
+  <defs>
+    <linearGradient id="life-contact-paper" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse"><stop stop-color="#F0E8D6"/><stop offset="1" stop-color="#E2D4B7"/></linearGradient>
+    <linearGradient id="life-contact-envelope" x1="400" y1="290" x2="400" y2="515" gradientUnits="userSpaceOnUse"><stop stop-color="#D4B58A"/><stop offset="1" stop-color="#C19A6F"/></linearGradient>
+    <linearGradient id="life-contact-flap" x1="190" y1="330" x2="610" y2="500" gradientUnits="userSpaceOnUse"><stop stop-color="#E8CFAB"/><stop offset="1" stop-color="#D8B78C"/></linearGradient>
+  </defs>
+  <path d="M0 0h800v600H0z" fill="url(#life-contact-paper)"/>
+  <circle cx="704" cy="96" r="150" fill="#E7DBBF"/>
+  <path d="M-30 170C74 174 170 89 252 85c98-5 155 51 218 45 72-7 86-61 142-53" stroke="#B9AC88" stroke-width="1.5" stroke-dasharray="4 7" opacity=".7"/>
+  <g data-contact-plane="" transform="translate(0 0) rotate(0 592 77)">
+    <path d="m568 71 51-8-22 37-7-20-22-9Z" fill="#F8F3E5" stroke="#A28A64" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="m590 80 29-17-24 22 2 15" stroke="#A28A64" stroke-width="1.2" stroke-linejoin="round"/>
+  </g>
+  <ellipse cx="402" cy="526" rx="237" ry="21" fill="#655B44" opacity=".11"/>
+  <path d="M190 293 388 151a21 21 0 0 1 24 0l198 142v210a12 12 0 0 1-12 12H202a12 12 0 0 1-12-12Z" fill="url(#life-contact-envelope)" stroke="#B28D60" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="m190 293 210 144 210-144" stroke="#A77B51" stroke-width="1.6" opacity=".35"/>
+  <g data-contact-letter="" transform="translate(0 0)">
+    <rect x="252" y="185" width="296" height="294" rx="6" fill="#A28A64" opacity=".13"/>
+    <rect x="248" y="179" width="296" height="294" rx="6" fill="#FCF8ED" stroke="#DACBAE" stroke-width="1.2"/>
+    <path d="M274 201h20v38l-10-7-10 7Z" fill="#AE684B"/>
+    <circle cx="494" cy="217" r="15" stroke="#81937B" stroke-width="1.1"/>
+    <path d="M488 224c-4-7 0-12 13-14 0 10-6 17-13 14Zm0 0 9-10" stroke="#81937B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M280 272h110M280 294h222M280 314h222M280 334h191M280 354h207" stroke="#8D9C85" stroke-width="2" stroke-linecap="round" opacity=".67"/>
+    <path d="M281 395c19-28 15-1 8 6-6 7 29-5 36-13-9 18 20 6 28-2-5 11 10 10 20 3" stroke="#335A48" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+  <path d="m190 293 210 144-210 66Z" fill="#E2C39B" stroke="#B99569" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M610 293 400 437l210 66Z" fill="#D4AE7F" stroke="#B99569" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="m190 503 198-133a21 21 0 0 1 24 0l198 133a12 12 0 0 1-12 12H202a12 12 0 0 1-12-12Z" fill="url(#life-contact-flap)" stroke="#B99569" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="m203 502 185-123a21 21 0 0 1 24 0l185 123" stroke="#F6E5CA" stroke-opacity=".65"/>
+  <circle cx="400" cy="446" r="24" fill="#B56F51"/>
+  <circle cx="400" cy="446" r="18" stroke="#DEA080" stroke-width="1.1"/>
+  <path d="m391 439 8 15 11-19" stroke="#EAC6AA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="rotate(19 666 371)">
+    <path d="M658 244h16v220h-16z" fill="#B5A077" opacity=".18" transform="translate(5 5)"/>
+    <rect x="658" y="251" width="16" height="177" rx="8" fill="#234C3D"/>
+    <path d="M658 303h16M658 311h16M659 419h14" stroke="#BD995E" stroke-width="3"/>
+    <path d="M669 261v36c0 5 8 5 8 0v-29" stroke="#D0B476" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="m659 428 7 34 7-34Z" fill="#C6A567" stroke="#9B7A46" stroke-width="1" stroke-linejoin="round"/>
+    <path d="M666 436v19" stroke="#5A5643" stroke-width="1"/>
+  </g>
+  <g transform="translate(118 429)">
+    <ellipse cy="53" rx="39" ry="10" fill="#80775D" opacity=".12"/>
+    <path d="M-27 1h54l6 17v31q-33 13-66 0V18Z" fill="#325644" stroke="#234436" stroke-width="1.5"/>
+    <path d="M-26 13h52v29q-26 9-52 0Z" fill="#42634B"/>
+    <rect x="-29" y="-7" width="58" height="14" rx="4" fill="#C8B27F" stroke="#AA9364" stroke-width="1.3"/>
+    <path d="M-20-3v6M-10-3v6M0-3v6M10-3v6M20-3v6" stroke="#AC9566"/>
+    <path d="M-12 25h24M-7 32H7" stroke="#D5C99C" stroke-width="1.3"/>
+  </g>
+</svg></div><figcaption class="motion-caption"><span>Ideas begin with a note.</span><button class="motion-toggle" type="button" data-motion-toggle hidden aria-describedby="motion-help"><svg viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><g data-pause-icon><rect x="3" y="2" width="3" height="12" rx=".7"/><rect x="10" y="2" width="3" height="12" rx=".7"/></g><path data-play-icon d="M4 2 14 8 4 14Z"/></svg><span data-motion-label>Pause motion</span></button></figcaption></figure></section>
 <section class="section contact-grid" aria-label="Ways to connect"><a class="contact-card" href="mailto:vidya@avadutala.com"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></svg><span class="eyebrow">Send a note</span><h2>Email</h2><span class="contact-address">vidya@avadutala.com</span><svg class="icon contact-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a class="contact-card" href="https://www.linkedin.com/in/avadutala/" target="_blank" rel="noopener noreferrer"><span class="linkedin-mark" aria-hidden="true">in</span><span class="eyebrow">Connect professionally</span><h2>LinkedIn</h2><span class="contact-address">linkedin.com/in/avadutala</span><span class="visually-hidden"> (opens in a new tab)</span><svg class="icon contact-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></section>
 <div class="contact-signoff"><span class="live-dot"></span> Phoenix, Arizona</div>
 </main>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none" role="img" aria-labelledby="reading-motion-title reading-motion-desc" data-motion-scene="books" class="motion-scene books-motion-scene">
+  <title id="reading-motion-title">A quiet moment in the reading room</title>
+  <desc id="reading-motion-desc">An open book rests beside a stack of books and a brass reading lamp. A paper leaf gently rises, turns across the spine, and settles onto the other side.</desc>
+  <defs>
+    <linearGradient id="reading-paper-bg" x1="80" y1="30" x2="700" y2="600" gradientUnits="userSpaceOnUse"><stop stop-color="#ECECDE"/><stop offset="1" stop-color="#DADCC8"/></linearGradient>
+    <linearGradient id="reading-brass" x1="555" y1="90" x2="660" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="#CDB078"/><stop offset=".45" stop-color="#A68950"/><stop offset="1" stop-color="#D3B77D"/></linearGradient>
+    <radialGradient id="reading-lamp-light" cx="0" cy="0" r="1" gradientTransform="translate(550 245) rotate(90) scale(203 221)" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF1BC" stop-opacity=".48"/><stop offset="1" stop-color="#FFF1BC" stop-opacity="0"/></radialGradient>
+    <linearGradient id="reading-page-left" x1="192" y1="346" x2="400" y2="395" gradientUnits="userSpaceOnUse"><stop stop-color="#F5ECD6"/><stop offset=".85" stop-color="#F9F1DD"/><stop offset="1" stop-color="#CFC3A7"/></linearGradient>
+    <linearGradient id="reading-page-right" x1="400" y1="380" x2="610" y2="335" gradientUnits="userSpaceOnUse"><stop stop-color="#D8CDB3"/><stop offset=".18" stop-color="#FFF9E8"/><stop offset="1" stop-color="#F8F1DF"/></linearGradient>
+  </defs>
+  <path d="M0 0h800v600H0z" fill="url(#reading-paper-bg)"/>
+  <circle cx="402" cy="281" r="226" fill="#F6F2E4" fill-opacity=".62"/>
+  <circle cx="402" cy="281" r="246" stroke="#9BA786" stroke-opacity=".18"/>
+  <path d="M79 472h642" stroke="#788C70" stroke-opacity=".24"/>
+  <path d="M93 485c145-16 448-18 613 0" stroke="#788C70" stroke-opacity=".1"/>
+  <ellipse cx="410" cy="502" rx="265" ry="30" fill="#6C7756" fill-opacity=".13"/>
+  <path d="m549 132-116 279h277L626 134Z" fill="url(#reading-lamp-light)"/>
+  <!-- A simple stack gives the open volume a reading-room setting. -->
+  <g transform="rotate(-5 191 290)">
+    <rect x="91" y="282" width="205" height="41" rx="5" fill="#244B3D"/>
+    <path d="M106 286h179v29H106z" fill="#DAD3B9"/>
+    <path d="M108 293h172M108 300h172M108 307h172" stroke="#B5AF94" stroke-width="1.2"/>
+    <path d="M101 283v39" stroke="#56765A" stroke-width="5"/>
+  </g>
+  <g transform="rotate(3 194 266)">
+    <rect x="104" y="246" width="192" height="37" rx="4" fill="#A96A4B"/>
+    <path d="M119 250h167v26H119z" fill="#EEE3C9"/>
+    <path d="M122 257h158M122 264h158M122 271h158" stroke="#C6B99C" stroke-width="1.2"/>
+    <path d="M113 247v35" stroke="#C88D64" stroke-width="4"/>
+  </g>
+  <g transform="rotate(-3 197 230)">
+    <rect x="117" y="214" width="176" height="33" rx="4" fill="#7D8D66"/>
+    <path d="M132 218h151v22H132z" fill="#F4ECD5"/>
+    <path d="M136 224h141M136 231h141M136 237h141" stroke="#C8C2A5"/>
+    <path d="M126 215v31" stroke="#A2AC84" stroke-width="4"/>
+  </g>
+  <!-- The lamp stays still; the turning pages carry the motion. -->
+  <ellipse cx="625" cy="383" rx="58" ry="12" fill="#6A7452" fill-opacity=".16"/>
+  <path d="M575 373c0-13 20-23 48-23s48 10 48 23v8h-96Z" fill="#786D45"/>
+  <ellipse cx="623" cy="372" rx="48" ry="12" fill="url(#reading-brass)"/>
+  <path d="M624 363V169c0-38-26-59-63-59" stroke="#8D784B" stroke-width="13" stroke-linecap="round"/>
+  <path d="M621 361V170c0-37-24-56-60-56" stroke="#D9BD83" stroke-width="4" stroke-linecap="round"/>
+  <path d="M521 103h69l31 54c-39 17-87 17-128 0Z" fill="url(#reading-brass)"/>
+  <ellipse cx="557" cy="156" rx="64" ry="15" fill="#6A623F"/>
+  <ellipse cx="557" cy="158" rx="55" ry="9" fill="#EAD7A3"/>
+  <path d="M521 104c19 8 48 8 69 0" stroke="#E6CF99" stroke-width="2"/>
+  <!-- Cover, page block and fixed leaves share a shallow overhead perspective. -->
+  <path d="M184 308c92-2 154 13 216 38 66-25 129-40 216-38l29 166c-97-2-174 12-245 39-74-27-151-40-245-39Z" fill="#1F4539"/>
+  <path d="M188 305c92-3 153 13 212 38 63-24 129-39 212-38l28 161c-95-2-171 13-240 39-73-25-147-39-240-39Z" fill="#D7CBB0"/>
+  <path d="M166 459c87-1 164 13 234 38 72-25 150-40 234-38M164 464c90-1 163 13 236 38 75-26 153-40 238-38" stroke="#B4AA8F" stroke-width="1.4"/>
+  <path d="M400 340c-65-27-150-45-210-40l-25 160c95-5 165 10 235 35Z" fill="url(#reading-page-left)"/>
+  <path d="M400 340c65-27 150-45 210-40l25 160c-95-5-165 10-235 35Z" fill="url(#reading-page-right)"/>
+  <g stroke="#8E9478" stroke-opacity=".37" stroke-width="2" stroke-linecap="round">
+    <path d="M214 327c54-1 113 10 158 27M211 342c57-1 116 10 161 27M208 357c60-1 119 10 164 27M205 372c62-1 122 10 167 27M202 387c65-1 125 10 170 27M200 402c67-1 127 10 172 27M197 417c70-1 130 10 175 27M194 432c48-1 86 5 122 13"/>
+    <path d="M428 354c45-17 104-28 158-27M428 369c45-17 104-28 161-27M428 384c45-17 104-28 164-27M428 399c45-17 104-28 167-27M428 414c45-17 104-28 170-27M428 429c45-17 104-28 172-27M428 444c45-17 104-28 175-27M428 459c40-15 83-23 122-26"/>
+  </g>
+  <path d="M400 345v151" stroke="#9A8F72" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M418 495v40l12-9 12 9v-47" fill="#B87954"/>
+  <g data-reading-leaf="" opacity="0.000">
+    <path data-reading-paper="" d="M400 340 C465.000 313.000 555.000 295.000 610.000 300.000 L635.000 460.000 C540.000 454.000 470.000 470.000 400 495Z" fill="#FFF9E8" stroke="#C0B99D" stroke-width=".8"/>
+    <path data-reading-ink="" d="M425.000 346.091 Q505.000 318.818 580.273 317.545M425.000 360.182 Q505.000 333.136 589.545 332.091M425.000 374.273 Q505.000 347.455 591.818 346.636M425.000 388.364 Q505.000 361.773 587.091 361.182M425.000 402.455 Q505.000 376.091 596.364 375.727M425.000 416.545 Q505.000 390.409 598.636 390.273M425.000 430.636 Q505.000 404.727 593.909 404.818M425.000 444.727 Q505.000 419.045 603.182 419.364M425.000 458.818 Q505.000 433.364 570.455 433.909" fill="none" stroke="#8E9478" stroke-width="2" stroke-linecap="round" opacity=".38"/>
+    <path data-reading-crease="" d="M400 340v155" stroke="#8C8061" stroke-width="3" opacity=".14"/>
+  </g>
+  <path d="M92 548h139" stroke="#8F9B7D" stroke-opacity=".6"/>
+  <circle cx="246" cy="548" r="3" fill="#B87954"/>
+</svg>

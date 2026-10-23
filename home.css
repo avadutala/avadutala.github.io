@@ -10,10 +10,29 @@
 .home-music-copy blockquote { color: var(--forest); font: 29px/1.5 var(--serif); letter-spacing: -.025em; margin-bottom: 20px; }
 .home-music-copy > p:not(.eyebrow) { max-width: 470px; color: #586453; font-size: 15px; line-height: 1.8; }
 .home-music-copy .text-link { margin-top: 10px; }
+/* Animated illustrations keep the same paper-and-forest visual language. */
+.bike-scene-frame { background: #e9ddc4; aspect-ratio: 5 / 4; }
+.bike-scene-frame > .motion-scene { height: 100%; }
+.home-music-art { display: flex; align-items: center; }
+.gramophone-scene-frame { width: 100%; }
+.home-tennis { display: grid; grid-template-columns: .8fr 1.2fr; gap: 48px; align-items: center; }
+.home-tennis-copy h3 { font-size: 37px; margin-bottom: 17px; }
+.home-tennis-copy > p { color: var(--muted); font-size: 16px; line-height: 1.8; }
+.home-tennis-copy > .eyebrow { color: var(--green); font-size: 10px; margin-bottom: 12px; }
+.home-tennis-copy > .text-link { margin-top: 5px; }
+.home-tennis-art { overflow: hidden; border-radius: 8px; background: #244d3f; }
+.home-tennis-art figcaption { display: flex; justify-content: space-between; align-items: center; gap: 15px; padding: 17px 23px; border-top: 1px solid #426752; color: #e7e8cf; font-size: 11px; }
+.home-tennis-art figcaption span:last-child { color: #b9c9ad; font-size: 10px; }
+.home-trail-note { border-top: 1px solid var(--line); margin-top: 26px; padding-top: 22px; }
+.home-trail-note h4 { margin: 0 0 10px; font: 25px/1.25 var(--serif); color: var(--forest); letter-spacing: -.025em; }
+.home-trail-note p { color: var(--muted); font-size: 14px; line-height: 1.8; }
+.home-trail-note .text-link { font-size: 12px; }
 @media (max-width: 1079px) {
   .home-music-copy { padding: 32px; }
   .home-music-copy blockquote { font-size: 25px; }
   .hero-copy .hero-role { font-size: 11px; }
+  .home-tennis { grid-template-columns: .9fr 1.1fr; gap: 30px; }
+  .home-tennis-copy h3 { font-size: 33px; }
 }
 @media (max-width: 759px) {
   .hero-copy .hero-role { margin-top: -5px; font-size: 12px; max-width: 340px; }
@@ -22,9 +41,19 @@
   .home-music-copy h2 { font-size: 34px; }
   .home-music-copy blockquote { font-size: 25px; }
   .home-music-art img { height: auto; max-height: 340px; object-fit: contain; }
+  .home-music-art { justify-content: center; }
+  .gramophone-scene-frame { max-width: 460px; }
+  .home-tennis { grid-template-columns: 1fr; gap: 28px; }
+  .home-tennis-copy h3 { font-size: 34px; }
+  .home-tennis-art figcaption { padding: 15px 18px; }
+  .tennis-scene-frame { padding-bottom: 24px; background: #244d3f; }
 }
 @media (max-width: 379px) {
   .home-music-copy { padding: 28px 23px 30px; }
   .home-music-copy h2 { font-size: 31px; }
   .home-music-copy blockquote { font-size: 23px; }
+  .home-tennis-art figcaption { align-items: flex-start; flex-direction: column; gap: 3px; }
+}
+@media print {
+  .home-music, .home-tennis { break-inside: avoid; }
 }

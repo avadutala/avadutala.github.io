@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 730" fill="none" role="img" aria-labelledby="gram-title gram-desc" data-motion-scene="gramophone" class="motion-scene gramophone-scene">
+  <title id="gram-title">A lifetime of music, one record at a time</title>
+  <desc id="gram-desc">An original brass-horn gramophone on a walnut cabinet. Its Ilaiyaraaja record turns gently beneath a still tonearm.</desc>
+  <defs>
+    <linearGradient id="gram-paper" x1="60" y1="35" x2="730" y2="710" gradientUnits="userSpaceOnUse"><stop stop-color="#F2EBDC"/><stop offset="1" stop-color="#DFD1AF"/></linearGradient>
+    <linearGradient id="gram-brass" x1="372" y1="145" x2="608" y2="387" gradientUnits="userSpaceOnUse"><stop stop-color="#DFBE77"/><stop offset=".3" stop-color="#B28C4E"/><stop offset=".65" stop-color="#E5C987"/><stop offset="1" stop-color="#8C6B3D"/></linearGradient>
+    <radialGradient id="gram-bell" cx="0" cy="0" r="1" gradientTransform="translate(386 248) rotate(-155) scale(254 203)" gradientUnits="userSpaceOnUse"><stop stop-color="#59472E"/><stop offset=".16" stop-color="#81613B"/><stop offset=".43" stop-color="#B18D52"/><stop offset=".73" stop-color="#D8B972"/><stop offset="1" stop-color="#EBD59E"/></radialGradient>
+    <linearGradient id="gram-rim" x1="212" y1="108" x2="404" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="#F5E4B6"/><stop offset=".45" stop-color="#D4B06C"/><stop offset="1" stop-color="#AA8047"/></linearGradient>
+    <linearGradient id="gram-wood-top" x1="238" y1="388" x2="420" y2="526" gradientUnits="userSpaceOnUse"><stop stop-color="#AC8057"/><stop offset="1" stop-color="#826044"/></linearGradient>
+    <linearGradient id="gram-wood-front" x1="155" y1="500" x2="560" y2="633" gradientUnits="userSpaceOnUse"><stop stop-color="#835B41"/><stop offset=".5" stop-color="#986C4B"/><stop offset="1" stop-color="#71503B"/></linearGradient>
+    <linearGradient id="gram-wood-side" x1="568" y1="510" x2="670" y2="564" gradientUnits="userSpaceOnUse"><stop stop-color="#674B37"/><stop offset="1" stop-color="#513E30"/></linearGradient>
+    <radialGradient id="gram-vinyl" cx="0" cy="0" r="1" gradientTransform="translate(-44 -43) rotate(45) scale(240)" gradientUnits="userSpaceOnUse"><stop stop-color="#36574B"/><stop offset=".55" stop-color="#173E34"/><stop offset="1" stop-color="#102F28"/></radialGradient>
+    <linearGradient id="gram-arm" x1="457" y1="454" x2="592" y2="473" gradientUnits="userSpaceOnUse"><stop stop-color="#D8BD7E"/><stop offset=".45" stop-color="#F0DCAC"/><stop offset="1" stop-color="#A27D44"/></linearGradient>
+    <clipPath id="gram-bounds"><path d="M0 0h800v730H0z"/></clipPath>
+    <clipPath id="gram-bell-clip"><ellipse cx="310" cy="231" rx="167" ry="128" transform="rotate(-21 310 231)"/></clipPath>
+  </defs>
+  <g clip-path="url(#gram-bounds)">
+    <path fill="url(#gram-paper)" d="M0 0h800v730H0z"/>
+    <circle cx="345" cy="280" r="236" fill="#F7F0E0" fill-opacity=".45"/>
+    <circle cx="345" cy="280" r="254" stroke="#B79E73" stroke-opacity=".15"/>
+    <g stroke="#AF996E" stroke-opacity=".2" stroke-width="1.2">
+      <path d="M-20 611c120-60 180 54 300 21 126-35 168-111 308-73 82 22 141 49 232 8"/>
+      <path d="M-20 627c120-60 180 54 300 21 126-35 168-111 308-73 82 22 141 49 232 8"/>
+      <path d="M-20 643c120-60 180 54 300 21 126-35 168-111 308-73 82 22 141 49 232 8"/>
+    </g>
+    <ellipse cx="410" cy="642" rx="283" ry="35" fill="#595D40" fill-opacity=".13"/>
+    <!-- The gramophone case and platter share a gently oblique perspective. -->
+    <path d="m159 584 33 3v37l-9 7-24-3Zm364 32 29 3v31l-8 7-21-3Zm101-41 24-13v28l-24 16Z" fill="#503F2E"/>
+    <path d="m129 489 96-100 443 43-96 105Z" fill="url(#gram-wood-top)"/>
+    <path d="m129 489 443 48v101l-443-48Z" fill="url(#gram-wood-front)"/>
+    <path d="m572 537 96-105v105l-96 101Z" fill="url(#gram-wood-side)"/>
+    <path d="m123 482 102-103 450 44-103 112Z" fill="#AA8259"/>
+    <path d="m135 482 94-94 433 42-94 98Z" fill="url(#gram-wood-top)"/>
+    <path d="m123 482 449 49v13l-449-49Z" fill="#B48C60"/>
+    <path d="m572 531 103-108v14L572 544Z" fill="#7A593C"/>
+    <path d="m123 585 449 49v15l-449-50Z" fill="#664A34"/>
+    <path d="m572 634 103-108v15L572 649Z" fill="#44362A"/>
+    <path d="m153 511 393 43v57l-393-43Z" stroke="#C49B6D" stroke-opacity=".4"/>
+    <path d="m162 520 375 40m-375-27 375 40m-375-23 375 40" stroke="#4E3E2E" stroke-opacity=".13"/>
+    <path d="m145 593 405 44" stroke="#C09A6B" stroke-opacity=".45" stroke-width="2"/>
+    <!-- A quiet engraved plate makes the illustration a personal tribute. -->
+    <g transform="translate(352 565) rotate(6)">
+      <rect x="-99" y="-19" width="198" height="38" rx="3" fill="#D2B373"/>
+      <rect x="-93" y="-13" width="186" height="26" rx="1" stroke="#765C38" stroke-opacity=".55"/>
+      <circle cx="-85" r="2" fill="#765C38"/><circle cx="85" r="2" fill="#765C38"/>
+      <text x="0" y="5" text-anchor="middle" fill="#59482F" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="1.2">Ilaiyaraaja</text>
+    </g>
+    <!-- The hand crank belongs to the case and does not spin with the record. -->
+    <ellipse cx="640" cy="522" rx="7" ry="11" transform="rotate(40 640 522)" fill="#AC8950"/>
+    <path d="m641 520 54 17v29l22 7" stroke="#A88B58" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m717 563 1 22" stroke="#34463A" stroke-width="12" stroke-linecap="round"/>
+    <!-- Fixed support sits behind the turntable and brass horn. -->
+    <path d="M591 433V354" stroke="#725A36" stroke-width="21" stroke-linecap="round"/>
+    <path d="M586 430V355" stroke="#C3A364" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="591" cy="439" rx="28" ry="11" fill="#745B35"/>
+    <ellipse cx="591" cy="434" rx="28" ry="11" fill="#C5A46A"/>
+    <!-- The outer transform compresses the rotating circular vinyl into an ellipse. -->
+    <ellipse cx="382" cy="475" rx="185" ry="67" fill="#473E2D" fill-opacity=".25"/>
+    <ellipse cx="382" cy="467" rx="184" ry="64" fill="#B9A46F"/>
+    <ellipse cx="382" cy="462" rx="183" ry="62" fill="#DFCC95"/>
+    <g transform="translate(382 460) scale(1 .34)">
+      <g data-gram-record="" transform="rotate(0)">
+        <circle r="179" fill="url(#gram-vinyl)"/>
+        <g stroke="#A5B397" stroke-opacity=".26" stroke-width="1.1">
+          <circle r="170"/><circle r="163"/><circle r="156"/><circle r="149"/><circle r="142"/><circle r="135"/><circle r="128"/><circle r="121"/><circle r="114"/><circle r="107"/><circle r="100"/><circle r="93"/><circle r="86"/><circle r="79"/>
+        </g>
+        <path d="M0 0 132-121A179 179 0 0 0 94-152ZM0 0-145 105a179 179 0 0 0 35 36Z" fill="#D6D7B5" fill-opacity=".15"/>
+        <path d="M0 0 155-89a179 179 0 0 0-9-15ZM0 0-158 84a179 179 0 0 0 8 14Z" fill="#C9D0AD" fill-opacity=".1"/>
+        <circle r="67" fill="#B66E49"/>
+        <circle r="60" stroke="#ECCCA5" stroke-opacity=".55" stroke-width="1.5"/>
+        <path d="M-39-5h78M-23 35h46" stroke="#E9C69F" stroke-opacity=".7" stroke-width="1.5"/>
+        <text x="0" y="-19" text-anchor="middle" fill="#FFF0D8" font-family="Georgia, 'Times New Roman', serif" font-size="15">Ilaiyaraaja</text>
+        <text x="0" y="26" text-anchor="middle" fill="#FFE5BF" font-family="Arial, sans-serif" font-size="7.5" letter-spacing="1.6">ALWAYS</text>
+        <circle cx="0" cy="-47" r="3" fill="#E6C696"/>
+        <circle r="11" fill="#DDBD87"/>
+      </g>
+    </g>
+    <!-- The spindle and tonearm remain fixed above the turning vinyl. -->
+    <ellipse cx="382" cy="460" rx="5" ry="2.6" fill="#A39060"/>
+    <path d="M382 460v-8" stroke="#E5D8AA" stroke-width="3" stroke-linecap="round"/>
+    <path d="M591 430c-4 27-28 30-48 27l-40-5c-17-2-26 3-38 17" stroke="#574C32" stroke-opacity=".22" stroke-width="13" stroke-linecap="round"/>
+    <path d="M591 423c-4 27-28 30-48 27l-40-5c-17-2-26 3-38 17" stroke="url(#gram-arm)" stroke-width="12" stroke-linecap="round"/>
+    <ellipse cx="462" cy="465" rx="12" ry="16" transform="rotate(34 462 465)" fill="#5E6248" stroke="#D6BE85" stroke-width="4"/>
+    <path d="m460 479-3 7" stroke="#DED0A5" stroke-width="2" stroke-linecap="round"/>
+    <!-- The broad acoustic horn is drawn last so its rim naturally overlaps the neck. -->
+    <path d="M410 104c57 8 87 57 108 111 16 41 40 67 72 88 32 21 43 50 22 77-11 14-30 17-43 5l-9-14c19-8 23-20 8-34-16-15-46-21-79-22-61-2-103 11-138 18Z" fill="url(#gram-brass)"/>
+    <path d="M442 138c45 26 55 75 81 111 25 36 53 55 69 70 17 16 18 33 5 47" stroke="#F2DAA0" stroke-opacity=".56" stroke-width="4" stroke-linecap="round"/>
+    <path d="M490 303c47 2 76 11 91 28 13 15 9 29-4 38" stroke="#896837" stroke-opacity=".4" stroke-width="2"/>
+    <ellipse cx="310" cy="231" rx="175" ry="136" transform="rotate(-21 310 231)" fill="url(#gram-rim)"/>
+    <ellipse cx="310" cy="231" rx="167" ry="128" transform="rotate(-21 310 231)" fill="url(#gram-bell)"/>
+    <g clip-path="url(#gram-bell-clip)" stroke="#F1DDA6" stroke-opacity=".28" stroke-width="1.8">
+      <path d="M386 248C311 220 263 159 256 85"/>
+      <path d="M386 248C292 259 202 219 127 164"/>
+      <path d="M386 248C330 294 240 317 165 333"/>
+      <path d="M386 248C387 301 354 345 313 379"/>
+      <path d="M386 248C419 256 448 285 472 320"/>
+      <path d="M386 248C420 210 433 172 436 124"/>
+    </g>
+    <path d="M170 198c22-48 61-82 117-98" stroke="#FFF0C9" stroke-opacity=".68" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="310" cy="231" rx="169" ry="130" transform="rotate(-21 310 231)" stroke="#FAE9BE" stroke-opacity=".56" stroke-width="2"/>
+    <path d="M354 691h92" stroke="#8F906F" stroke-opacity=".65"/>
+    <circle cx="400" cy="691" r="3" fill="#B66E49"/>
+  </g>
+</svg>

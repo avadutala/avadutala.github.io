@@ -1,18 +1,18 @@
 # Vidya Sagar Avadutala — personal website
 
-Refined static website for the existing avadutala.github.io GitHub Pages repository. This version includes an interactive travel atlas, illustrated movie and book collections, a personal Music page devoted to Ilaiyaraaja, and a fuller engineering portfolio while retaining the personal memories and experience details from the supplied website.
+Refined static website for the existing avadutala.github.io GitHub Pages repository. This version brings original animated illustrations to every main page, including the reading room, cinema, interactive travel atlas, engineering portfolio, Music, Interests, Contact, and the custom missing-page screen.
 
 ## Pages
 
-- index.html — home, with a clear professional introduction, a prominent Ilaiyaraaja feature, mountain biking, tennis, and routes into the rest of the notebook.
-- interests.html — mountain biking and tennis, plus other interests.
-- movies.html — the Odyssey feature and all 22 previous films, each with original title artwork, plus gallery/journal views, search, theme filters, sorting, and a reading dialog.
-- places.html — an interactive world map, 22 places visited or lived in, six wishlist destinations, and the complete travel notebook.
-- engineering.html — current SyberJet role, expertise areas, an expandable career timeline, two public engineering stories, and the master’s thesis.
-- books.html — 15 illustrated works, a Project Hail Mary spotlight, fuller book introductions, reading questions, searchable themes, Shelf/Reading notes views, and an interactive reader.
-- music.html — a personal tribute to Ilaiyaraaja, with reflections on love, passion, creativity, sorrow, and happiness, plus a link to his official music page.
-- contact.html — contact details with the shared website design.
-- 404.html — a custom missing-page screen with links back to Home, Music, and Contact.
+- index.html — home, with a clear professional introduction, a mountain biker riding the trail, a spinning gramophone record beside the Ilaiyaraaja feature, and a tennis rally.
+- interests.html — a mountain biker following the trail and a tennis rally, plus other interests.
+- movies.html — a working film-projector illustration, the Odyssey feature and all 22 previous films, each with original title artwork, plus gallery/journal views, search, theme filters, sorting, and a reading dialog.
+- places.html — an animated globe and aeroplane beside an interactive world map, 22 places visited or lived in, six wishlist destinations, and the complete travel notebook.
+- engineering.html — an animated conceptual structural frame, the current SyberJet role, expertise areas, an expandable career timeline, two public engineering stories, and the master’s thesis.
+- books.html — an open book with a turning paper leaf, 15 illustrated works, a Project Hail Mary spotlight, fuller book introductions, reading questions, searchable themes, Shelf/Reading notes views, and an interactive reader.
+- music.html — a slowly turning record and a personal tribute to Ilaiyaraaja, with reflections on love, passion, creativity, sorrow, and happiness, plus a link to his official music page.
+- contact.html — a note gently lifting from its envelope, beside the email and LinkedIn details.
+- 404.html — a mountain biker on a custom missing-page screen with links back to Home, Music, and Contact.
 - about.html, experience.html, projects.html, blog.html, notes.html — redirects preserving existing URLs; Notes and Blog now lead directly to Music.
 
 ## Preview
@@ -29,11 +29,29 @@ The homepage introduces Vidya’s current role at SyberJet Aircraft in Phoenix, 
 
 Music now appears in Interests, Contact, and the shared footer. The page structure has room for personal photographs and more specific memories when Vidya supplies them; no empty placeholder sections have been added.
 
+### Illustrations in motion across the website
+
+- Mountain biking: a helmeted rider follows the sand trail, with turning spokes and linked pedal/leg movement. The wheels follow the same curve used to draw the path. The 22-second scene loops beyond the visible edges.
+- Gramophone: a vinyl record makes a gentle eight-second revolution on an original brass-horn gramophone. The horn, cabinet, and needle remain stationary.
+- Tennis: two rackets trade a four-shot, eight-second rally. The ball crosses the net, bounces once on each receiving side, and returns from the racket. The court and net keep their corrected proportions; the ball’s height and size are illustrative.
+
+- Books: an open paper leaf rises, turns across the spine, and settles on the other side. Abstract printed lines move with the page; the actual book notes remain still and readable.
+- Movies: two projector reels rotate at different speeds while film perforations pass through the machine. The projection beam stays steady.
+- Engineering: load arrows and two moving markers bring a conceptual frame to life. This is decorative technical artwork, not a model of a particular aircraft or a presentation of analysis results.
+- Places: a small aeroplane follows a decorative orbit around a gently turning globe. The orbit does not imply a travel itinerary. The existing interactive map and its place data are unchanged.
+- Music: groove highlights turn around a stationary Ilaiyaraaja label, with two gently floating notes. There is no embedded audio.
+- Contact: a note lifts from its envelope and returns, with a drifting paper plane. This illustration does not send messages or add a contact form.
+- Interests and the missing-page screen reuse the trail scene; Interests also includes the tennis rally.
+
+Each illustration has a Pause motion / Play motion button. Controls act together on the current page and remember the visitor’s choice across the website when local storage is available, including browser Back navigation. A device preference for reduced motion starts each page with still illustrations; the visitor can deliberately choose Play motion. Scenes also pause when they are outside the viewport or the browser tab is hidden, and resume from their existing positions. The new page illustrations keep their controls in the caption, clear of the artwork on narrow screens.
+
+The artwork is local SVG with a small shared JavaScript controller. It works in an ordinary GitHub Pages site and in a locally opened index.html, without video downloads, audio, third-party animation libraries, or network requests. Without JavaScript, all complete illustrations remain visible and the inactive controls stay hidden.
+
 ### Identity and sports illustrations
 
 The selected Option 1 VA monogram is used in every main page header and in the browser favicon. Its geometric mark is supplied as assets/va-monogram.svg, with the inverse icon in assets/favicon.svg.
 
-The mountain biker is aligned with the uphill stretch of the winding trail, with both wheels on the path. The home page and Interests share this corrected illustration.
+The animated mountain biker follows the trail with both wheels positioned from the drawn path. Home, Interests, and the missing-page screen share this scene.
 
 The tennis scene is a proportionally scaled overhead SVG that resizes without stretching. The 78-by-36-foot doubles court, 27-foot singles width, service lines 21 feet from the net, and net posts 3 feet beyond each doubles sideline follow [Rule 1 of the ITF Rules of Tennis](https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf). The SVG geometry is documented in assets/tennis-court.svg.
 
@@ -108,11 +126,16 @@ GitHub Pages uses the root 404.html file for missing addresses. Its assets and n
 
 The existing CNAME is preserved byte-for-byte and contains www.avadutala.com. Hosting settings and DNS changes are not required for these content and design updates.
 
+This update changes all eight main HTML pages, 404.html, and the animation styles and scripts. Upload the complete extracted contents so every page receives its illustration and controls. The shared runtime is now motion.js and motion.css, with story-scenes.js, journey-scenes.js, life-scenes.js, and the three existing home scene scripts. Versioned stylesheet and script links help returning browsers reload this update; keep the supplied filenames. Once deployment succeeds, use Ctrl+F5 if the old appearance is still cached. A leftover home-motion.js from the previous upload is no longer referenced and does not affect the updated site.
+
 ## Editing
 
 Edit the HTML files directly. Shared styling lives in style.css; shared navigation behavior lives in site.js. Page-specific presentation and interactions are organized as follows:
 
-- Home: home.css and index.html. The Music feature and professional introduction use existing site content.
+- Home: home.css and index.html. The three SVG scenes are embedded directly in index.html so they work with local-file previews. Editable standalone copies are supplied as assets/home-bike-scene.svg, assets/home-gramophone-scene.svg, and assets/home-tennis-scene.svg. If changing the artwork, copy the updated SVG into its corresponding scene in index.html as well.
+- Shared motion: motion.js owns playback, pause controls, remembered choices, reduced-motion preference, and visibility handling. motion.css styles the shared controls and animated page layouts. Each page loads only the scene bundle it uses.
+- Scene renderers: home-bike.js, home-gramophone.js, and home-tennis.js provide the original three scenes. story-scenes.js provides Books and Movies; journey-scenes.js provides Engineering and Places; life-scenes.js provides Music and Contact. Renderers receive elapsed seconds from the shared controller and do not create their own timers.
+- New scene artwork: assets/books-motion-scene.svg, assets/cinema-motion-scene.svg, assets/engineering-motion-scene.svg, assets/travel-motion-scene.svg, assets/music-motion-scene.svg, and assets/contact-motion-scene.svg are the editable sources. Their SVG content is embedded directly in the matching HTML pages so local previews do not depend on fetching files. If an SVG changes, update its embedded copy too.
 - Places: travel.css and travel.js. Place data is embedded as JSON in places.html under travel-data; keep it consistent with the visible notebook entries when adding or changing a destination.
 - Movies: movies.css and movies.js. Film titles, categories, original collection order, artwork paths, and reflections are in movies.html. The artwork files and title-to-file manifest are in assets/films/.
 - Engineering: career.css and engineering.html. The timeline uses native details elements, so it needs no additional script.
@@ -124,7 +147,7 @@ Keep the assets folder and all linked stylesheets/scripts with the HTML files. N
 
 ## Assets and content
 
-The SVG landscape, cinema image, record-inspired Music artwork, 22 film title artworks, and 15 book title artworks are original decorative illustrations. They are not photographs of Vidya, official movie posters, an official Odyssey poster, or reproductions of publishers’ book covers. The map geography is attributed separately as described above. The old banner_final_14books.jpg has been removed from this updated website.
+The SVG landscape, animated page scenes, cinema image, record-inspired Music artwork, 22 film title artworks, and 15 book title artworks are original decorative illustrations. They are not photographs of Vidya, official movie posters, an official Odyssey poster, or reproductions of publishers’ book covers. The map geography is attributed separately as described above. The old banner_final_14books.jpg has been removed from this updated website.
 
 Odyssey is presented using the supplied title and personal viewing reaction; no director, cast, release year, rating, or exact runtime has been inferred. Sakhi retains its existing all-time-favorite description. Existing professional details and personal memories are carried over from the supplied website.
 

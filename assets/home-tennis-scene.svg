@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" fill="none" role="img" aria-labelledby="rally-title rally-desc" class="motion-scene tennis-scene" data-motion-scene="tennis">
+  <title id="rally-title">A little focus. A lot of joy.</title>
+  <desc id="rally-desc">Two rackets trade a gentle rally across a green tennis court. The ball crosses the net and bounces once on each return, with its shadow following the court below. The singles and doubles lines and net keep their correct proportions.</desc>
+  <!-- Court geometry: 8 drawing units per foot. Doubles court 78 x 36 ft;
+       singles width 27 ft; service lines 21 ft from the net; net posts 3 ft
+       beyond each doubles sideline. ITF Rules of Tennis 2026, Rule 1:
+       https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf -->
+  <defs>
+    <linearGradient id="rally-surround" x1="30" y1="0" x2="800" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A6251"/>
+      <stop offset="1" stop-color="#214A3E"/>
+    </linearGradient>
+    <linearGradient id="rally-surface" x1="88" y1="116" x2="712" y2="404" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#557E65"/>
+      <stop offset="1" stop-color="#3A6855"/>
+    </linearGradient>
+    <linearGradient id="rally-light" x1="160" y1="0" x2="605" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2E5B6" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#183B31" stop-opacity=".09"/>
+    </linearGradient>
+    <clipPath id="rally-bounds"><path d="M0 0h800v520H0z"/></clipPath>
+    <pattern id="rally-net-shadow-mesh" x="400" y="92" width="4" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0H4M0 0V5" stroke="#163A30" stroke-opacity=".34" stroke-width=".8"/>
+    </pattern>
+    <pattern id="rally-strings" x="0" y="0" width="5" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0h5M0 0v5" stroke="#F5F0D7" stroke-opacity=".65" stroke-width=".65"/>
+    </pattern>
+    <radialGradient id="rally-ball-light" cx=".3" cy=".22" r=".9">
+      <stop stop-color="#EFF4B9"/><stop offset=".55" stop-color="#DAE78D"/><stop offset="1" stop-color="#A8BE58"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#rally-bounds)">
+    <path d="M0 0h800v520H0z" fill="url(#rally-surround)"/>
+    <path d="M0 0h800v520H0z" fill="url(#rally-light)"/>
+    <!-- A quiet margin around the playing surface keeps its shape clear. -->
+    <path d="M42 55h716v410H42z" stroke="#E6E0BD" stroke-opacity=".1" stroke-width="1"/>
+    <path d="M88 116h624v288H88z" fill="url(#rally-surface)"/>
+    <path d="M88 116h624v36H88zm0 252h624v36H88z" fill="#2C5748" fill-opacity=".3"/>
+    <path d="M232 152h168v108H232zm168 108h168v108H400z" fill="#D6DAB9" fill-opacity=".035"/>
+    <!-- The outlines measure 624 by 288 units: the 78:36 doubles ratio. -->
+    <g stroke="#F1EED5" stroke-width="1.4" stroke-linejoin="miter">
+      <path d="M88.7 116.7h622.6v286.6H88.7z"/>
+      <path d="M88.7 152h622.6M88.7 368h622.6"/>
+      <path d="M232 152v216M568 152v216M232 260h336"/>
+      <path d="M88.7 260h2.67M708.63 260h2.67"/>
+    </g>
+    <!-- Top-down net: a slim white band, small posts and a subtle mesh shadow. -->
+    <path d="M400 92 411 96v328l-11 4Z" fill="#193C32" fill-opacity=".17"/>
+    <path d="M400 92 411 96v328l-11 4Z" fill="url(#rally-net-shadow-mesh)"/>
+    <path d="M400 92v336" stroke="#173B30" stroke-width="3.4"/>
+    <path d="M399.6 92v336" stroke="#FFF9DD" stroke-width="1.8"/>
+    <path d="M398.6 260h3.2" stroke="#FFF9DD" stroke-width="1.8"/>
+    <g fill="#F1EED5" stroke="#193C32" stroke-width=".8">
+      <circle cx="400" cy="92" r="2"/>
+      <circle cx="400" cy="428" r="2"/>
+    </g>
+    <!-- Soft foliage sits outside the court; all playing lines remain visible. -->
+    <g fill="#173F32" fill-opacity=".25">
+      <path d="M-8 438c28-35 51-27 69-13-27 3-44 8-69 13Z"/>
+      <path d="M-5 468c35-36 60-20 78-2-29-1-48-3-78 2Z"/>
+      <path d="M27 521c-9-28 0-47 17-60 0 27-5 42-17 60Z"/>
+      <path d="M800 16c-30 4-52 1-68-21 33-5 53 0 68 21Z"/>
+      <path d="M814 50c-36-6-53-23-60-48 29 10 42 24 60 48Z"/>
+    </g>
+    <!-- A pair of rackets, with handles outside the respective baselines.
+         The animation rotates each racket about its string-bed centre, so
+         contact stays aligned with the ball even through the little swing. -->
+    <g data-rally-racket-left="" transform="translate(125 198.925) rotate(18)">
+      <g transform="translate(3 4)" opacity=".15" fill="#15392E" stroke="#15392E" stroke-linecap="round">
+        <ellipse rx="22" ry="17"/><path d="M-25 0h-29" stroke-width="8"/>
+      </g>
+      <path d="m-17-10-16 10 16 10" stroke="#D9DDC4" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M-31 0h-22" stroke="#BE7956" stroke-width="7" stroke-linecap="round"/>
+      <path d="M-35-3v6m-5-6v6m-5-6v6m-5-6v6" stroke="#F1D3AD" stroke-opacity=".45" stroke-width=".8"/>
+      <ellipse rx="21" ry="16" fill="#244D3F" stroke="#F5EED4" stroke-width="2.8"/>
+      <ellipse rx="18" ry="13" fill="url(#rally-strings)" stroke="#A8BBA0" stroke-width=".7"/>
+      <path d="M14-11a18 13 0 0 1 5 9" stroke="#FFF7DB" stroke-width="1.1" stroke-linecap="round"/>
+    </g>
+    <g data-rally-racket-right="" transform="translate(675 294.203) rotate(-18)">
+      <g transform="rotate(180)">
+        <g transform="translate(-3 -4)" opacity=".15" fill="#15392E" stroke="#15392E" stroke-linecap="round">
+          <ellipse rx="22" ry="17"/><path d="M-25 0h-29" stroke-width="8"/>
+        </g>
+        <path d="m-17-10-16 10 16 10" stroke="#C4CFAF" stroke-width="2.6" stroke-linejoin="round"/>
+        <path d="M-31 0h-22" stroke="#E1D9B9" stroke-width="7" stroke-linecap="round"/>
+        <path d="M-35-3v6m-5-6v6m-5-6v6m-5-6v6" stroke="#758B68" stroke-opacity=".7" stroke-width=".8"/>
+        <ellipse rx="21" ry="16" fill="#244D3F" stroke="#D8B47C" stroke-width="2.8"/>
+        <ellipse rx="18" ry="13" fill="url(#rally-strings)" stroke="#C0CDA5" stroke-width=".7"/>
+        <path d="M14-11a18 13 0 0 1 5 9" stroke="#F3D8A3" stroke-width="1.1" stroke-linecap="round"/>
+      </g>
+    </g>
+    <!-- The pulse is visible only immediately after a court bounce. -->
+    <ellipse data-rally-bounce="" cx="554" cy="311.2" rx="7" ry="4" stroke="#E4E9AF" stroke-width="1.5" opacity="0"/>
+    <ellipse data-rally-shadow="" cx="305.75" cy="249.5" rx="8.685" ry="3.625" fill="#163D2F" opacity=".152"/>
+    <g data-rally-ball="" transform="translate(303.75 223) scale(1.108)">
+      <g data-rally-spin="" transform="rotate(91)">
+        <circle r="7.8" fill="url(#rally-ball-light)" stroke="#EFF1B6" stroke-width=".8"/>
+        <path d="M-6.1-4.4C-1.7-3.5-1.7 3.5-6.1 4.4M6.1-4.4C1.7-3.5 1.7 3.5 6.1 4.4" stroke="#FBF8D8" stroke-width="1.05" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+</svg>

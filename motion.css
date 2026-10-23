@@ -1,0 +1,70 @@
+/* A shared, optional layer of movement for the personal notebook. */
+.scene-frame { position: relative; overflow: hidden; isolation: isolate; }
+.motion-scene { display: block; width: 100%; height: auto; }
+.motion-toggle { position: absolute; right: 15px; bottom: 15px; display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 38px; padding: 9px 12px; border: 1px solid #a6af98; border-radius: 5px; background: #fbf8ee; color: #193e37; font: 600 11px/1.4 var(--sans); box-shadow: 0 2px 8px #1b382512; z-index: 1; }
+.motion-toggle:hover { background: #fff; border-color: #506a52; }
+.motion-toggle svg { width: 13px; height: 13px; }
+.motion-toggle [data-play-icon] { display: none; }
+.motion-toggle[data-motion-state="paused"] [data-play-icon] { display: block; }
+.motion-toggle[data-motion-state="paused"] [data-pause-icon] { display: none; }
+.motion-caption { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 20px; color: #50604d; background: #e9e7da; border-top: 1px solid #c9c9b5; font: 11px/1.65 var(--sans); }
+.motion-caption > span { min-width: 0; }
+.motion-caption .motion-toggle { position: static; flex: 0 0 auto; box-shadow: none; }
+.page-motion-art { min-width: 0; width: 100%; overflow: hidden; border-radius: 80px 8px 8px 8px; background: #e9e5d4; }
+.books-motion-art { border-top-left-radius: 120px; }
+.books-motion-art .motion-caption > span { font: italic 16px/1.45 var(--serif); }
+.movie-page-hero { display: grid; grid-template-columns: minmax(0,1.12fr) minmax(0,1fr); gap: 60px; align-items: center; }
+.movie-page-hero h1 { font-size: clamp(45px,4.8vw,66px); }
+.movie-hero-copy > p:not(.eyebrow), .contact-hero-copy > p:not(.eyebrow) { max-width: 610px; color: var(--muted); font-size: 17px; line-height: 1.85; }
+.movie-page-hero .cinema-count { display: flex; margin-top: 26px; border-left: 0; border-top: 1px solid var(--line); padding: 20px 0 0; gap: 15px; }
+.movie-page-hero .cinema-count strong { font-size: 38px; }
+.movie-page-hero .cinema-count span { font-size: 9px; }
+.cinema-motion-art { background: #193e37; }
+.cinema-motion-art .motion-caption { background: #244a3e; color: #e1e5d3; border-color: #496552; }
+.travel-hero { grid-template-columns: minmax(0,1.12fr) minmax(0,1fr); gap: 60px; }
+.travel-hero h1 { font-size: clamp(48px,5.3vw,70px); }
+.travel-hero .travel-summary { grid-template-columns: repeat(3,minmax(0,1fr)); border-left: 0; border-top: 1px solid var(--line); padding: 22px 0 0; margin-top: 27px; gap: 20px; }
+.travel-hero .travel-summary > div { display: block; }
+.travel-hero .travel-summary strong { display: block; font-size: 35px; width: auto; margin-bottom: 8px; }
+.travel-hero .travel-summary span { display: block; font-size: 10px; line-height: 1.6; }
+.travel-hero .text-link { margin-top: 5px; }
+.engineering-motion-art { margin: 18px 0 15px; }
+.engineering-motion-art .motion-caption { padding: 0; border: 0; background: transparent; color: #c8d6bf; font-size: 9px; }
+.engineering-motion-art .motion-toggle { background: #284e43; color: #f4eedc; border-color: #6a846d; font-size: 10px; }
+.engineering-motion-art .motion-toggle:hover { background: #355b4b; }
+.interest-motion-art { overflow: hidden; border-radius: 8px; background: #e9ddc4; }
+.interest-feature .motion-caption { padding: 14px 20px; color: #50604d; font-size: 11px; }
+.court-illustration .motion-caption { color: #e7e7ca; background: #244d3f; border-color: #456551; }
+.music-art .motion-caption { padding: 14px 20px; letter-spacing: normal; }
+.contact-hero { display: grid; grid-template-columns: minmax(0,1.12fr) minmax(0,1fr); gap: 60px; align-items: center; max-width: none; padding-top: 64px; }
+.contact-hero h1 { font-size: clamp(46px,5.1vw,70px); }
+.not-found-art .motion-caption { font-size: 10px; }
+@media (max-width: 1079px) {
+  .movie-page-hero, .travel-hero, .contact-hero { gap: 35px; }
+  .motion-caption { padding: 13px 16px; gap: 12px; }
+  .books-motion-art .motion-caption > span { font-size: 14px; }
+}
+@media (max-width: 759px) {
+  .motion-toggle { min-height: 40px; right: 12px; bottom: 12px; font-size: 10px; padding: 9px 11px; }
+  .motion-caption { gap: 12px; padding: 13px 16px; }
+  .page-motion-art { max-width: 540px; margin-inline: auto; border-top-left-radius: 70px; }
+  .movie-page-hero, .travel-hero, .contact-hero { grid-template-columns: 1fr; gap: 30px; }
+  .movie-page-hero h1, .travel-hero h1, .contact-hero h1 { font-size: clamp(42px,9.5vw,60px); }
+  .movie-page-hero .cinema-count { margin-top: 22px; padding-top: 17px; }
+  .movie-page-hero .cinema-count strong { font-size: 32px; }
+  .travel-hero .travel-summary { border-bottom: 0; gap: 17px; }
+  .travel-hero .travel-summary strong { font-size: 32px; }
+  .travel-hero .travel-summary span { font-size: 9px; }
+  .contact-hero { padding-top: 46px; }
+  .books-motion-art .motion-caption > span { font-size: 14px; }
+  .music-art .motion-caption, .interest-feature .motion-caption { padding: 13px 16px; font-size: 10px; }
+}
+@media (max-width: 379px) {
+  .motion-caption { padding: 12px; gap: 10px; font-size: 10px; }
+  .books-motion-art .motion-caption > span { font-size: 13px; }
+  .engineering-motion-art .motion-caption { align-items: flex-start; flex-direction: column; gap: 10px; }
+}
+@media print {
+  .motion-toggle { display: none !important; }
+  .page-motion-art, .music-art, .interest-motion-art, .court-illustration { break-inside: avoid; }
+}

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 560" fill="none" role="img" aria-labelledby="voyage-motion-title voyage-motion-desc" data-motion-scene="travel" class="motion-scene travel-motion-scene">
+  <title id="voyage-motion-title">A world still full of possibilities</title>
+  <desc id="voyage-motion-desc">An illustrated globe gently turns as a little aeroplane follows a dotted orbit around it. The orbit is decorative, rather than a record of a particular journey.</desc>
+  <defs>
+    <linearGradient id="voyage-paper" x1="60" y1="20" x2="630" y2="550" gradientUnits="userSpaceOnUse"><stop stop-color="#F1EDDD"/><stop offset="1" stop-color="#DDDCC7"/></linearGradient>
+    <radialGradient id="voyage-ocean" cx="0" cy="0" r="1" gradientTransform="translate(286 213) rotate(45) scale(260)" gradientUnits="userSpaceOnUse"><stop stop-color="#4F7760"/><stop offset=".62" stop-color="#315B47"/><stop offset="1" stop-color="#1E4437"/></radialGradient>
+    <radialGradient id="voyage-shade" cx="0" cy="0" r="1" gradientTransform="translate(300 215) rotate(48) scale(259)" gradientUnits="userSpaceOnUse"><stop offset=".55" stop-color="#102E26" stop-opacity="0"/><stop offset="1" stop-color="#102E26" stop-opacity=".4"/></radialGradient>
+    <clipPath id="voyage-sphere-clip"><circle cx="350" cy="265" r="171"/></clipPath>
+  </defs>
+  <rect width="700" height="560" fill="url(#voyage-paper)"/>
+  <circle cx="350" cy="265" r="228" fill="#F7F3E6" fill-opacity=".4"/>
+  <circle cx="350" cy="265" r="230" stroke="#789479" stroke-opacity=".14"/>
+  <circle cx="350" cy="265" r="243" stroke="#789479" stroke-opacity=".09"/>
+  <g stroke="#7E957A" opacity=".3" stroke-width="1.2">
+    <path d="M75 136h14m-7-7v14M591 420h14m-7-7v14M579 101h9m-4.5-4.5v9"/>
+    <circle cx="136" cy="397" r="3"/><circle cx="531" cy="80" r="2.5"/>
+  </g>
+  <ellipse cx="350" cy="472" rx="154" ry="13" fill="#193E37" fill-opacity=".07"/>
+  <!-- The dotted orbit is a decorative device, not a plotted travel itinerary. -->
+  <ellipse cx="350" cy="265" rx="281" ry="195" transform="rotate(-18 350 265)" stroke="#7F9072" stroke-width="1.2" stroke-dasharray="3 7" opacity=".55"/>
+  <g data-voyage-globe="" transform="rotate(0.000 350 265)">
+    <circle cx="350" cy="265" r="171" fill="url(#voyage-ocean)"/>
+    <g clip-path="url(#voyage-sphere-clip)">
+      <!-- Deliberately simplified land shapes: an illustrated globe, not a map interface. -->
+      <g fill="#C3CCA4" stroke="#D6D9B6" stroke-width=".8" stroke-linejoin="round">
+        <path d="m329 171 12-7 8 9 14-5 8 8 14-2 12 10 19-3 8 13 18-2 7 10 20-8 14 2 9 14 18 1 16 17 17 3 8 18 21 14-2 19-18-5-13-11-13 1-11-10-12 4-4 13-10 7-6 22-9 15-8-13 3-19-7-9-6-18-13-2-14-15-5-12-12 5-10-6-11 1-8-12-8-2-7-14-13-3-8-11-9 2-10-10-2-14Z"/>
+        <path d="m293 216 18-13 18 2 13 11 18 4 7 15 14 7 13-1 5 10-14 16-11 18-10 7-2 23-14 17-5 22-11 10-14-7-10-17-4-20-11-13-3-21-12-12-4-19-14-6 3-16Z"/>
+        <path d="m348 150 7-21 11-9 3-15-13-1-12 11-7 17-11 10-8 18 6 9 9-5Z"/>
+        <path d="m308 172 7-8-5-15-7 4-3 13Zm-15 6 7-6-4-8-5 5Z"/>
+        <path d="m384 315 7-11 4 4-4 17-5 11-4-7Z"/>
+        <path d="m469 343 19-9 12-11 18 6 16 19-9 25-20 14-17-8-13 3-13-15Z"/>
+        <path d="m469 292 11 5 4 11-7 4-9-7-10-2-6-9Zm27-34 6 11-3 9-4-5Z"/>
+        <path d="m210 152 15-11 17-3 9 12-12 15-6 15-13 5-5 17-11 7 6 12-5 12-17 4-9-11-11-6-4-26 18-21Z"/>
+        <path d="m192 248 11 2 8 15 12 4 4 14 18 9 6 20-7 12-5 22-11 15-7 26-9 10-6-18-10-19-1-24-9-22-1-23-11-13Z"/>
+        <path d="m259 119 15-16 15-3 6 16-9 16-12 11-11-6Z"/>
+      </g>
+      <g stroke="#C8D9BC" stroke-opacity=".22" stroke-width="1">
+        <ellipse cx="350" cy="265" rx="82" ry="171"/>
+        <ellipse cx="350" cy="265" rx="143" ry="171"/>
+        <path d="M350 94v342M179 265h342"/>
+        <ellipse cx="350" cy="265" rx="171" ry="63"/>
+        <ellipse cx="350" cy="265" rx="171" ry="121"/>
+      </g>
+      <circle cx="350" cy="265" r="171" fill="url(#voyage-shade)"/>
+    </g>
+    <circle cx="350" cy="265" r="171" stroke="#244D3E" stroke-width="1.8"/>
+    <path d="M205 195a171 171 0 0 1 131-100" stroke="#F5F1D7" stroke-width="2.2" stroke-linecap="round" opacity=".35"/>
+  </g>
+  <g data-voyage-plane="" transform="translate(118.419 195.264) rotate(-52.759)">
+    <ellipse cx="-1" cy="5" rx="25" ry="9" fill="#193E37" opacity=".08"/>
+    <path d="m26 0-7-4-15-1-15-17h-6l8 18-14 1-7-6h-4l4 9-4 9h4l7-6 14 1-8 18h6L4 5l15-1Z" fill="#F8F4E7" stroke="#596E56" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M-24 0h43" stroke="#BA7657" stroke-width="2" stroke-linecap="round"/>
+    <path d="m-11-20 4 1m-4 39 4-1" stroke="#BA7657" stroke-width="2" stroke-linecap="round"/>
+    <path d="m14-3 5 3-5 3" stroke="#596E56" stroke-width="1.1"/>
+  </g>
+  <g data-voyage-cloud="" transform="translate(0.000 0)" fill="#F7F3E5" opacity=".88">
+    <path d="M80 332c0-10 8-18 18-18 4-11 15-17 26-13 7 2 12 8 14 15 11-3 22 5 23 16Z"/>
+    <path d="M519 163c0-8 7-15 15-15 4-8 12-13 21-10 6 2 10 7 12 12 8-2 17 4 18 13Z"/>
+  </g>
+  <g transform="translate(80 468)" stroke="#8D9C7E" stroke-width="1.2" opacity=".65">
+    <circle r="22"/><path d="M0-29v7M0 22v7M-29 0h7M22 0h7"/>
+    <path d="m0-15 4 15-4 15-4-15Z" fill="#B87C5D" stroke="none"/><path d="m0 0 4 0-4 15Z" fill="#F2EDDC" stroke="none"/>
+  </g>
+</svg>

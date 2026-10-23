@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" fill="none" role="img" aria-labelledby="bike-scene-title bike-scene-desc" data-motion-scene="bike" class="motion-scene bike-scene">
+  <title id="bike-scene-title">Finding joy on the trail</title>
+  <desc id="bike-scene-desc">A helmeted mountain biker pedals along a winding sand trail through layered desert hills. The wheels turn as the bicycle follows the trail.</desc>
+  <defs>
+    <linearGradient id="bike-sky" x1="500" y1="0" x2="500" y2="600" gradientUnits="userSpaceOnUse"><stop stop-color="#F4EDE0"/><stop offset="1" stop-color="#E9DDC4"/></linearGradient>
+    <linearGradient id="bike-hills" x1="190" y1="450" x2="876" y2="843" gradientUnits="userSpaceOnUse"><stop stop-color="#5D7865"/><stop offset="1" stop-color="#2A5349"/></linearGradient>
+    <clipPath id="bike-bounds"><path d="M0 0h1000v800H0z"/></clipPath>
+  </defs>
+  <g clip-path="url(#bike-bounds)">
+    <path fill="url(#bike-sky)" d="M0 0h1000v800H0z"/>
+    <circle cx="780" cy="143" r="75" fill="#D99660"/>
+    <circle cx="780" cy="143" r="94" stroke="#D99660" stroke-opacity=".18"/>
+    <path d="M-55 302 74 254 143 293 252 219 301 235 363 169 457 249 535 224 624 309 709 241 808 303 905 240 1036 311V539H-55Z" fill="#CEB59B"/>
+    <path d="m242 226 59 9 62-66 95 81-58-22-27 18-39-15-35 26Z" fill="#E0CDB3"/>
+    <path d="M-39 391 55 324 148 351 230 288 331 368 408 324 472 353 541 303 634 369 718 338 790 280 878 367 962 323 1040 356V582H-39Z" fill="#AF8E77"/>
+    <path d="m711 344 79-64 88 87-62-35-27 14-22-19Z" fill="#C5A48A"/>
+    <path d="M-35 431C51 398 104 429 181 402c68-24 96-21 164 13 68 35 112 25 169 1 83-35 147-24 215 0 92 31 153-28 306-23v407H-35Z" fill="#8D9B7E"/>
+    <path d="M-18 481c97-18 159-5 234 21 126 44 201-78 341-63 129 15 183 112 329 83 78-15 117-53 159-55v333H-18Z" fill="url(#bike-hills)"/>
+    <g stroke="#A9B694" stroke-width="2" stroke-linecap="round" opacity=".36">
+      <path d="M-5 522c108-13 160 28 240 24 84-5 135-55 197-59"/>
+      <path d="M-24 551c121-26 178 33 265 19 75-11 128-57 196-61"/>
+      <path d="M604 676c172-78 251-52 422-113"/>
+      <path d="M562 714c179-81 279-60 465-115"/>
+    </g>
+    <!-- The bicycle follows this exact centreline. Both tire contacts sit on its chord. -->
+    <path d="M-160 650C-20 690 90 663 230 610C375 554 440 638 595 580C760 518 885 555 1160 455" stroke="#294F41" stroke-opacity=".2" stroke-width="94" stroke-linecap="round" transform="translate(0 7)"/>
+    <path d="M-160 650C-20 690 90 663 230 610C375 554 440 638 595 580C760 518 885 555 1160 455" stroke="#CBBE93" stroke-width="88" stroke-linecap="round"/>
+    <path id="bike-trail-path" data-bike-path="" d="M-160 650C-20 690 90 663 230 610C375 554 440 638 595 580C760 518 885 555 1160 455" stroke="#EAD9B2" stroke-width="70" stroke-linecap="round"/>
+    <path d="M-160 650C-20 690 90 663 230 610C375 554 440 638 595 580C760 518 885 555 1160 455" stroke="#F6EACB" stroke-opacity=".4" stroke-width="2" stroke-dasharray="2 91 4 78" stroke-linecap="round"/>
+    <g fill="#47634F">
+      <path d="m139 448-7-27-6 25-8-10 6 19h20l6-16Z"/>
+      <path d="m387 477-5-21-5 20-8-8 6 15h16l5-15Z"/>
+      <path d="m831 469-5-20-6 20-8-9 5 16h20l5-18Z"/>
+    </g>
+    <g fill="#D5BA8C" opacity=".78">
+      <path d="m163 642 11-4 9 4-13 2Z"/><path d="m478 621 10-4 8 4-11 2Z"/>
+      <path d="m738 575 9-4 12 5-15 1Z"/><path d="m896 510 7-3 10 3-11 2Z"/>
+    </g>
+    <!-- A useful still pose is included for reduced-motion and JavaScript-free viewing. -->
+    <g data-bike-rider="" transform="translate(421.55 595.56) rotate(4.39) scale(1.25)">
+      <ellipse cx="0" cy="4" rx="89" ry="7" fill="#586449" opacity=".23"/>
+      <g transform="translate(-59 -34)">
+        <circle r="31" stroke="#233C34" stroke-width="6"/>
+        <circle r="26" stroke="#D9DAB9" stroke-opacity=".8" stroke-width="1"/>
+        <g data-bike-wheel="rear" stroke="#A8B095" stroke-width="1.2"><path d="M-27 0h54M0-27v54m-19-46 38 38m-38 0 38-38"/><circle r="3" fill="#233C34" stroke="none"/></g>
+      </g>
+      <g transform="translate(59 -34)">
+        <circle r="31" stroke="#233C34" stroke-width="6"/>
+        <circle r="26" stroke="#D9DAB9" stroke-opacity=".8" stroke-width="1"/>
+        <g data-bike-wheel="front" stroke="#A8B095" stroke-width="1.2"><path d="M-27 0h54M0-27v54m-19-46 38 38m-38 0 38-38"/><circle r="3" fill="#233C34" stroke="none"/></g>
+      </g>
+      <path data-bike-leg="far" d="M-23-101L7.02-71.62-21-39" stroke="#B98560" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path data-bike-shoe="far" d="M-25-37h16" stroke="#233C34" stroke-width="6" stroke-linecap="round"/>
+      <g stroke="#E7E4C9" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M-59-34-31-89-5-34H-59M-31-89 25-87-5-34M25-87 59-34"/>
+        <path d="M-31-89-35-100M25-87 21-102 34-106"/>
+      </g>
+      <path d="M-46-102h23M32-106h11" stroke="#233C34" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-59-34-5-28M-59-34-5-40" stroke="#A1A887" stroke-width="1.3"/>
+      <circle cx="-5" cy="-34" r="7" fill="#233C34"/>
+      <path data-bike-crank="" d="M-19-34H9" stroke="#233C34" stroke-width="3" stroke-linecap="round"/>
+      <path data-bike-pedal="far" d="M-24-34h10" stroke="#233C34" stroke-width="3" stroke-linecap="round"/>
+      <path data-bike-pedal="near" d="M4-34h10" stroke="#233C34" stroke-width="3" stroke-linecap="round"/>
+      <path data-bike-leg="near" d="M-23-101L14.15-81.40 7-39" stroke="#D6AB7E" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      <path data-bike-shoe="near" d="M3-37h16" stroke="#233C34" stroke-width="6" stroke-linecap="round"/>
+      <path d="M-32-107-12-99-17-88-37-94Z" fill="#253F35"/>
+      <path d="M-34-108C-21-125-5-137 17-138L29-123C7-120-8-107-15-97Z" fill="#C96943"/>
+      <path d="M-28-107C-17-119-7-128 6-133" stroke="#E3A47C" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/>
+      <path d="M23-132 33-117 38-107" stroke="#D6AB7E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M21-132 27-124" stroke="#C96943" stroke-width="12" stroke-linecap="round"/>
+      <path d="M35-107h7" stroke="#233C34" stroke-width="5" stroke-linecap="round"/>
+      <path d="M23-140 29-147" stroke="#C28C63" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="35" cy="-155" r="11" fill="#D6AB7E"/>
+      <path d="M23-158c1-11 15-16 24-7l3 10-27 1Z" fill="#263F36"/>
+      <path d="M46-156h9M29-164l3 6m5-8 2 6" stroke="#263F36" stroke-width="4" stroke-linecap="round"/>
+      <path d="M30-153 36-143 43-152" stroke="#263F36" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <path d="M-20 734c81-51 114-50 190-16 67 30 96 37 182 82H-20Z" fill="#294F41"/>
+    <path d="M806 800c43-62 109-83 214-66v66Z" fill="#22483E"/>
+    <g stroke="#74916C" stroke-width="4" stroke-linecap="round">
+      <path d="M112 782v-66m0 43-19-21m19 12 17-26M852 778v-49m0 30-13-14m13 4 13-16"/>
+    </g>
+    <g fill="#879B76"><ellipse cx="90" cy="733" rx="5" ry="13" transform="rotate(-39 90 733)"/><ellipse cx="130" cy="720" rx="5" ry="13" transform="rotate(29 130 720)"/><ellipse cx="112" cy="712" rx="5" ry="13"/></g>
+  </g>
+</svg>
