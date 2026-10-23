@@ -1,0 +1,6 @@
+World map: Natural Earth 1:110 million land boundaries, public-domain data.
+Official data repository: https://github.com/nvkelso/natural-earth-vector
+Source GeoJSON: https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_land.geojson
+Terms: https://www.naturalearthdata.com/about/terms-of-use/
+Converted to an equirectangular SVG for this website, retaining the source geometry's antimeridian clipping. The SVG is bundled locally and requires no map service or runtime network request.
+Location pins are approximate city coordinates; broad destinations use representative regional points. They are not an itinerary or a claim about exact visited addresses.

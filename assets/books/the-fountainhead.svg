@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+<title id="title">The Fountainhead — original title artwork</title><desc id="desc">Original editorial illustration for The Fountainhead, part of a personal reading notebook. This is not an official book cover.</desc>
+<!-- Original code-native editorial illustration. Not an official book cover. -->
+<defs><clipPath id="art-window"><rect x="36" y="91" width="528" height="420"/></clipPath></defs>
+<rect width="600" height="800" fill="#2b454b"/>
+<path d="M19 0v800M26 0v800" stroke="#eee2c5" stroke-width="1" opacity=".10"/>
+<text x="47" y="48" fill="#eee2c5" font-family="Arial,sans-serif" font-size="11" letter-spacing="2" opacity=".78">SOCIETY &amp; PHILOSOPHY</text>
+<text x="553" y="48" text-anchor="end" fill="#eee2c5" font-family="Georgia,serif" font-size="17" opacity=".8">10</text>
+<g clip-path="url(#art-window)"><path d="M73 460h455M118 460V348h82v112M417 460V314h66v146" stroke="#8c9b9b" stroke-width="2" fill="none"/><path d="M229 460V205l85-71 75 32v294Z" fill="#d4c5a6"/><path d="M314 134v326M229 205l85 35 75-74M229 205v255" stroke="#2e4b50" stroke-width="2" fill="none"/><path d="M242 247l59 24M328 239l47-39" stroke="#6c7774" stroke-width="1.4" fill="none"/><path d="M242 276l59 24M328 268l47-39" stroke="#6c7774" stroke-width="1.4" fill="none"/><path d="M242 305l59 24M328 297l47-39" stroke="#6c7774" stroke-width="1.4" fill="none"/><path d="M242 334l59 24M328 326l47-39" stroke="#6c7774" stroke-width="1.4" fill="none"/><path d="M242 363l59 24M328 355l47-39" stroke="#6c7774" stroke-width="1.4" fill="none"/><path d="M242 392l59 24M328 384l47-39" stroke="#6c7774" stroke-width="1.4" fill="none"/><path d="M242 421l59 24M328 413l47-39" stroke="#6c7774" stroke-width="1.4" fill="none"/><path d="M280 163v-54M425 198h68M462 165v67M73 478h455" stroke="#c48b62" stroke-width="2" fill="none"/></g>
+<path d="M47 537h506" stroke="#eee2c5" stroke-width="1" opacity=".36"/>
+<text fill="#eee2c5" font-family="Georgia,'Times New Roman',serif" font-size="58" font-weight="400" letter-spacing="-1.25"><tspan x="47" y="596.4">The</tspan><tspan x="47" y="660.2">Fountainhead</tspan></text>
+<text x="49" y="733" fill="#eee2c5" font-family="Arial,sans-serif" font-size="15" letter-spacing=".5" opacity=".88">Ayn Rand</text>
+<text x="49" y="774" fill="#eee2c5" font-family="Arial,sans-serif" font-size="9" letter-spacing="2.2" opacity=".62">VIDYA’S READING NOTEBOOK</text>
+</svg>

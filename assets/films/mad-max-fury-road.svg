@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">Mad Max: Fury Road — original title artwork</title>
+<desc id="desc">Original desert pursuit imagery with a sun, diagonal vehicle geometry, and a road through ochre dunes. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#c17a45"/>
+<text x="42" y="49" fill="#fff0d2" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#fff0d2" opacity=".75" font-family="Georgia,serif" font-size="17">08</text>
+<g clip-path="url(#art-window)">
+<circle cx="380" cy="244" r="124" fill="#e8b56e"/>
+<path d="M0 388 155 341 324 379 600 309v253H0Z" fill="#966447"/>
+<path d="m0 463 201-53 197 14 202-20v158H0Z" fill="#704d3b"/>
+<path d="m147 550 172-224h42L258 550Z" fill="#e6b36a"/>
+<g transform="translate(322 318) rotate(-27)"><circle cx="-92" cy="82" r="63" fill="#453a31"/><circle cx="-92" cy="82" r="38" fill="none" stroke="#ba956a" stroke-width="5"/><circle cx="118" cy="82" r="63" fill="#453a31"/><circle cx="118" cy="82" r="38" fill="none" stroke="#ba956a" stroke-width="5"/><path d="M-126 37-75-22H89l63 59" fill="#4b3a2f"/><path d="M-128 38h281v44h-281z" fill="#66503a"/></g>
+<path d="M72 167h94M49 190h128m273 249h95" stroke="#f2d59e" stroke-width="3" opacity=".5"/>
+</g>
+<path d="M42 590h516" stroke="#fff0d2" stroke-width="1" opacity=".35"/>
+<text fill="#fff0d2" font-family="Georgia,'Times New Roman',serif" font-size="54" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="645.0">Mad Max:</tspan><tspan x="42" y="706.6">Fury Road</tspan></text>
+<text x="42" y="770" fill="#fff0d2" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

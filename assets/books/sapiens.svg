@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+<title id="title">Sapiens — original title artwork</title><desc id="desc">Original editorial illustration for Sapiens, part of a personal reading notebook. This is not an official book cover.</desc>
+<!-- Original code-native editorial illustration. Not an official book cover. -->
+<defs><clipPath id="art-window"><rect x="36" y="91" width="528" height="420"/></clipPath></defs>
+<rect width="600" height="800" fill="#914f39"/>
+<path d="M19 0v800M26 0v800" stroke="#f4dfbd" stroke-width="1" opacity=".10"/>
+<text x="47" y="48" fill="#f4dfbd" font-family="Arial,sans-serif" font-size="11" letter-spacing="2" opacity=".78">SOCIETY &amp; PHILOSOPHY</text>
+<text x="553" y="48" text-anchor="end" fill="#f4dfbd" font-family="Georgia,serif" font-size="17" opacity=".8">07</text>
+<g clip-path="url(#art-window)"><circle cx="300" cy="284" r="154" fill="#e0ab6f" opacity="1"/><path d="M300 460V294M300 333l-83-71M300 356l94-72M300 302l-29-83M300 302l38-104" stroke="#6b3f2d" stroke-width="5" fill="none"/><circle cx="217" cy="262" r="9" fill="#6b3f2d" opacity="1"/><circle cx="394" cy="284" r="11" fill="#6b3f2d" opacity="1"/><circle cx="271" cy="219" r="8" fill="#6b3f2d" opacity="1"/><circle cx="338" cy="198" r="7" fill="#6b3f2d" opacity="1"/><path d="M134 470h332M164 446q136-48 272 0M176 476q124-45 248 0" stroke="#efcea4" stroke-width="2" fill="none"/><circle cx="140" cy="196" r="6" fill="none" stroke="#f0cf9e" stroke-width="1" opacity="1"/><circle cx="452" cy="204" r="6" fill="none" stroke="#f0cf9e" stroke-width="1" opacity="1"/><circle cx="443" cy="388" r="6" fill="none" stroke="#f0cf9e" stroke-width="1" opacity="1"/><circle cx="171" cy="373" r="6" fill="none" stroke="#f0cf9e" stroke-width="1" opacity="1"/></g>
+<path d="M47 537h506" stroke="#f4dfbd" stroke-width="1" opacity=".36"/>
+<text fill="#f4dfbd" font-family="Georgia,'Times New Roman',serif" font-size="79" font-weight="400" letter-spacing="-1.25"><tspan x="47" y="626.0">Sapiens</tspan></text>
+<text x="49" y="733" fill="#f4dfbd" font-family="Arial,sans-serif" font-size="15" letter-spacing=".5" opacity=".88">Yuval Noah Harari</text>
+<text x="49" y="774" fill="#f4dfbd" font-family="Arial,sans-serif" font-size="9" letter-spacing="2.2" opacity=".62">VIDYA’S READING NOTEBOOK</text>
+</svg>

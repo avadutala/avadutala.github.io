@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">Life Is Beautiful — original title artwork</title>
+<desc id="desc">Original golden doorway with two small figures and a kite, suggesting warmth and care. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#b07b46"/>
+<text x="42" y="49" fill="#fbebc7" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#fbebc7" opacity=".75" font-family="Georgia,serif" font-size="17">21</text>
+<g clip-path="url(#art-window)">
+<path d="M137 528V238a163 163 0 0 1 326 0v290" fill="#835e3d"/>
+<path d="M166 528V239a134 134 0 0 1 268 0v289" fill="#e8c98b"/>
+<path d="M195 528V242a105 105 0 0 1 210 0v286" fill="#f1dfaa"/>
+<path d="M166 528 300 368l134 160Z" fill="#d6b579"/>
+<g fill="#76583a"><circle cx="274" cy="412" r="17"/><path d="M255 489v-53a19 19 0 0 1 38 0v53z"/><circle cx="332" cy="443" r="12"/><path d="M319 491v-32a13 13 0 0 1 26 0v32z"/><path d="m291 448 29 20" fill="none" stroke="#76583a" stroke-width="8" stroke-linecap="round"/></g>
+<path d="m327 183 27 29 27-29-27-27Z" fill="#bb704b"/><path d="M354 212c-28 36 7 56-9 78" fill="none" stroke="#8f6847" stroke-width="2"/>
+</g>
+<path d="M42 590h516" stroke="#fbebc7" stroke-width="1" opacity=".35"/>
+<text fill="#fbebc7" font-family="Georgia,'Times New Roman',serif" font-size="47" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="676.0">Life Is Beautiful</tspan></text>
+<text x="42" y="770" fill="#fbebc7" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

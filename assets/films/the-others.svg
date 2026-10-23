@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">The Others — original title artwork</title>
+<desc id="desc">Original curtained window and an uncertain pool of light, suggesting quiet suspense. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#283b3b"/>
+<text x="42" y="49" fill="#ede6d0" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#ede6d0" opacity=".75" font-family="Georgia,serif" font-size="17">11</text>
+<g clip-path="url(#art-window)">
+<rect x="174" y="135" width="252" height="333" rx="118" fill="#d0c8a5"/>
+<path d="M174 253v215h252V253" fill="#c1bea0"/>
+<path d="M300 135v333m-126-192h252" stroke="#364c48" stroke-width="12"/>
+<path d="M91 119h146c-16 88-7 173-103 290l-43 17Z" fill="#50645c"/>
+<path d="M509 119H363c16 88 7 173 103 290l43 17Z" fill="#50645c"/>
+<path d="M120 127c39 120 9 186-4 264m361-264c-39 120-9 186 4 264" fill="none" stroke="#708074" stroke-width="2" opacity=".5"/>
+<path d="M229 468 145 543h309l-81-75Z" fill="#bcb997" opacity=".28"/>
+</g>
+<path d="M42 590h516" stroke="#ede6d0" stroke-width="1" opacity=".35"/>
+<text fill="#ede6d0" font-family="Georgia,'Times New Roman',serif" font-size="58" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="676.0">The Others</tspan></text>
+<text x="42" y="770" fill="#ede6d0" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

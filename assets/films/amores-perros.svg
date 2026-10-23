@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">Amores Perros — original title artwork</title>
+<desc id="desc">Original intersecting city routes in rust, charcoal, and cream. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#7c3e38"/>
+<text x="42" y="49" fill="#f0dcc2" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#f0dcc2" opacity=".75" font-family="Georgia,serif" font-size="17">12</text>
+<g clip-path="url(#art-window)">
+<path d="m71 117 95 111 73 113 201 208" fill="none" stroke="#bd7657" stroke-width="55"/>
+<path d="m523 124-94 132-141 82-209 202" fill="none" stroke="#e0ac78" stroke-width="42"/>
+<path d="M55 377 223 311 425 337 545 444" fill="none" stroke="#462f32" stroke-width="58"/>
+<path d="m71 117 95 111 73 113 201 208M523 124l-94 132-141 82L79 540M55 377l168-66 202 26 120 107" fill="none" stroke="#e8c69d" stroke-width="2" stroke-dasharray="13 14"/>
+<circle cx="241" cy="321" r="22" fill="#f0d3a6"/>
+</g>
+<path d="M42 590h516" stroke="#f0dcc2" stroke-width="1" opacity=".35"/>
+<text fill="#f0dcc2" font-family="Georgia,'Times New Roman',serif" font-size="53" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="676.0">Amores Perros</tspan></text>
+<text x="42" y="770" fill="#f0dcc2" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

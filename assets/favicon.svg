@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>VA — Vidya Sagar Avadutala</title>
+  <rect width="64" height="64" rx="14" fill="#193e37"/>
+  <path d="M13 23 42 80 71 23 100 80M56 56H86" transform="translate(3.75 6) scale(.5)" fill="none" stroke="#f6f4ee" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter"/>
+</svg>

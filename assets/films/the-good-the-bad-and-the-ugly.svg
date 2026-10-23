@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">The Good, the Bad and the Ugly — original title artwork</title>
+<desc id="desc">Original abstract trio of western silhouettes beneath a broad desert sun. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#d7b27c"/>
+<text x="42" y="49" fill="#41392e" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#41392e" opacity=".75" font-family="Georgia,serif" font-size="17">15</text>
+<g clip-path="url(#art-window)">
+<circle cx="300" cy="265" r="158" fill="#ba8c56"/>
+<path d="M0 450 140 406 307 434 456 398 600 442v119H0Z" fill="#a8774b"/>
+<g fill="#514436"><path d="M114 464 135 317h55l24 147Zm13-164h73v15h-73zm18-29h39v30h-39z"/><path d="M250 492 273 297h57l24 195Zm10-211h83v16h-83zm21-33h42v34h-42z"/><path d="m393 465 18-135h57l22 135Zm8-150h77v16h-77zm19-29h39v30h-39z"/></g>
+<path d="M71 509h454M96 526h408" stroke="#6c573e" stroke-width="2" opacity=".5"/>
+</g>
+<path d="M42 590h516" stroke="#41392e" stroke-width="1" opacity=".35"/>
+<text fill="#41392e" font-family="Georgia,'Times New Roman',serif" font-size="41" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="645.0">The Good, the Bad</tspan><tspan x="42" y="691.7">and the Ugly</tspan></text>
+<text x="42" y="770" fill="#41392e" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

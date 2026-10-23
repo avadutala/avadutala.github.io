@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">The Shawshank Redemption — original title artwork</title>
+<desc id="desc">An original illustration of a narrow lit window, a widening path of light, and three birds, suggesting hope and resilience. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#162d34"/>
+<text x="42" y="49" fill="#f3e8ca" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#f3e8ca" opacity=".75" font-family="Georgia,serif" font-size="17">01</text>
+<g clip-path="url(#art-window)">
+<path d="M176 545V242a124 124 0 0 1 248 0v303" fill="#24434b"/>
+<path d="M268 219h64v112h-64z" fill="#f3d69b"/>
+<path d="M268 331 92 545h416L332 331Z" fill="#d9b56f" opacity=".36"/>
+<path d="M289 219v112m22-112v112" stroke="#203c44" stroke-width="7"/>
+<path d="M116 545h367M160 520h286M204 495h200" stroke="#cfbd92" opacity=".35" stroke-width="2"/>
+<path d="m288 156 11-8 11 8m13-32 11-8 11 8m13-33 11-8 11 8" fill="none" stroke="#e4c78c" stroke-width="3" stroke-linecap="round"/>
+</g>
+<path d="M42 590h516" stroke="#f3e8ca" stroke-width="1" opacity=".35"/>
+<text fill="#f3e8ca" font-family="Georgia,'Times New Roman',serif" font-size="48" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="645.0">The Shawshank</tspan><tspan x="42" y="699.7">Redemption</tspan></text>
+<text x="42" y="770" fill="#f3e8ca" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

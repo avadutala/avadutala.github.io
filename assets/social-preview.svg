@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="social-title social-desc">
+  <title id="social-title">Vidya Sagar Avadutala — a personal notebook</title>
+  <desc id="social-desc">A warm ivory and forest-green sharing card with the VA monogram, Vidya Sagar Avadutala’s name, the words Engineering, music and a curious life, and www.avadutala.com.</desc>
+  <defs>
+    <clipPath id="card-bounds"><rect width="1200" height="630"/></clipPath>
+    <linearGradient id="forest-depth" x1="725" y1="80" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#244F43"/>
+      <stop offset="1" stop-color="#193E37"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#card-bounds)">
+    <rect width="1200" height="630" fill="#F6F4EE"/>
+    <path d="M0 629.5h1200" stroke="#DCDED4"/>
+    <circle cx="1080" cy="315" r="385" fill="url(#forest-depth)"/>
+    <g fill="none" stroke="#E6E5C9" stroke-width="1" opacity=".11">
+      <circle cx="1080" cy="315" r="370"/>
+      <circle cx="1080" cy="315" r="352"/>
+      <circle cx="1080" cy="315" r="334"/>
+      <circle cx="1080" cy="315" r="316"/>
+      <circle cx="1080" cy="315" r="298"/>
+      <circle cx="1080" cy="315" r="280"/>
+      <circle cx="1080" cy="315" r="262"/>
+      <circle cx="1080" cy="315" r="244"/>
+      <circle cx="1080" cy="315" r="226"/>
+      <circle cx="1080" cy="315" r="208"/>
+      <circle cx="1080" cy="315" r="190"/>
+    </g>
+    <path d="M13 23 42 80 71 23 100 80M56 56H86" transform="translate(76 61) scale(.62)" fill="none" stroke="#193E37" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter"/>
+    <text x="166" y="101" fill="#536254" font-family="Arial, 'Liberation Sans', sans-serif" font-size="14" font-weight="600" letter-spacing="2.4">A PERSONAL NOTEBOOK</text>
+    <g fill="#193E37" font-family="'Nimbus Roman', Georgia, 'Times New Roman', serif" font-size="84" font-weight="400" letter-spacing="-2.2">
+      <text x="78" y="278">Vidya Sagar</text>
+      <text x="78" y="372">Avadutala</text>
+    </g>
+    <text x="82" y="432" fill="#536254" font-family="Arial, 'Liberation Sans', sans-serif" font-size="23" letter-spacing="-.25">Engineering, music &amp; a curious life.</text>
+    <path d="M82 515h512" stroke="#D5D8CB" stroke-width="1.2"/>
+    <circle cx="88" cy="560" r="5" fill="#AD5536"/>
+    <text x="110" y="567" fill="#536254" font-family="Arial, 'Liberation Sans', sans-serif" font-size="18" letter-spacing=".65">www.avadutala.com</text>
+    <path d="M13 23 42 80 71 23 100 80M56 56H86" transform="translate(835 190) scale(2.45)" fill="none" stroke="#F6F4EE" stroke-width="9" stroke-linecap="square" stroke-linejoin="miter"/>
+    <circle cx="883" cy="131" r="6" fill="#C48258"/>
+    <path d="M871 486h202" stroke="#D9DCC3" stroke-opacity=".27"/>
+    <text x="971" y="518" fill="#D7DECD" font-family="Arial, 'Liberation Sans', sans-serif" font-size="11" letter-spacing="2.6" text-anchor="middle">WORK · LIFE · CURIOSITY</text>
+  </g>
+</svg>

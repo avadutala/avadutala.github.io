@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+<title id="title">The Extended Phenotype — original title artwork</title><desc id="desc">Original editorial illustration for The Extended Phenotype, part of a personal reading notebook. This is not an official book cover.</desc>
+<!-- Original code-native editorial illustration. Not an official book cover. -->
+<defs><clipPath id="art-window"><rect x="36" y="91" width="528" height="420"/></clipPath></defs>
+<rect width="600" height="800" fill="#624933"/>
+<path d="M19 0v800M26 0v800" stroke="#f1dfbf" stroke-width="1" opacity=".10"/>
+<text x="47" y="48" fill="#f1dfbf" font-family="Arial,sans-serif" font-size="11" letter-spacing="2" opacity=".78">LIFE &amp; EVOLUTION</text>
+<text x="553" y="48" text-anchor="end" fill="#f1dfbf" font-family="Georgia,serif" font-size="17" opacity=".8">02</text>
+<g clip-path="url(#art-window)"><circle cx="300" cy="290" r="125" fill="#b57750" opacity="0.2"/><circle cx="300" cy="292" r="93" fill="none" stroke="#e5c59d" stroke-width="1" opacity="0.35"/><circle cx="300" cy="292" r="135" fill="none" stroke="#e5c59d" stroke-width="1" opacity="0.35"/><circle cx="300" cy="292" r="178" fill="none" stroke="#e5c59d" stroke-width="1" opacity="0.35"/><path d="M300 460V304M300 354l-88-82M300 379l98-100M300 337l50-114M300 318l-52-99" stroke="#f0d9b3" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="212" cy="272" r="24" fill="#b9bd91" opacity="1"/><circle cx="212" cy="272" r="16" fill="none" stroke="#654733" stroke-width="1" opacity="0.5"/><circle cx="398" cy="279" r="35" fill="#b9bd91" opacity="1"/><circle cx="398" cy="279" r="27" fill="none" stroke="#654733" stroke-width="1" opacity="0.5"/><circle cx="350" cy="223" r="19" fill="#b9bd91" opacity="1"/><circle cx="350" cy="223" r="11" fill="none" stroke="#654733" stroke-width="1" opacity="0.5"/><circle cx="248" cy="219" r="30" fill="#b9bd91" opacity="1"/><circle cx="248" cy="219" r="22" fill="none" stroke="#654733" stroke-width="1" opacity="0.5"/><circle cx="300" cy="304" r="12" fill="#b9bd91" opacity="1"/><circle cx="300" cy="304" r="4" fill="none" stroke="#654733" stroke-width="1" opacity="0.5"/><path d="M142 444q158-60 316 0M171 461q129-49 258 0M198 478q102-37 204 0" stroke="#c88f62" stroke-width="2" fill="none"/></g>
+<path d="M47 537h506" stroke="#f1dfbf" stroke-width="1" opacity=".36"/>
+<text fill="#f1dfbf" font-family="Georgia,'Times New Roman',serif" font-size="51" font-weight="400" letter-spacing="-1.25"><tspan x="47" y="600.0">The Extended</tspan><tspan x="47" y="656.1">Phenotype</tspan></text>
+<text x="49" y="733" fill="#f1dfbf" font-family="Arial,sans-serif" font-size="15" letter-spacing=".5" opacity=".88">Richard Dawkins</text>
+<text x="49" y="774" fill="#f1dfbf" font-family="Arial,sans-serif" font-size="9" letter-spacing="2.2" opacity=".62">VIDYA’S READING NOTEBOOK</text>
+</svg>

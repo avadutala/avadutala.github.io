@@ -1,0 +1,94 @@
+/* A personal tribute — warm paper, deep grooves, and a little room to feel. */
+.music-hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 70px; align-items: center; padding: 64px 0 58px; }
+.music-hero h1 { margin: 15px 0 25px; font-size: clamp(52px,6vw,82px); line-height: 1.04; }
+.music-artist { color: var(--forest); font: 400 clamp(25px,2.7vw,35px)/1.3 var(--serif); letter-spacing: -.025em; margin-bottom: 19px; }
+.music-hero .music-intro { max-width: 490px; color: var(--muted); font-size: 17px; line-height: 1.85; }
+.music-hero .text-link { margin-top: 13px; }
+.music-art { overflow: hidden; border-radius: 110px 8px 8px 8px; background: #e8ddc4; }
+.music-art img { width: 100%; height: auto; }
+.music-art figcaption { padding: 17px 26px 19px; border-top: 1px solid #c5baa0; color: #485346; font-size: 11px; letter-spacing: .08em; }
+.music-devotion { display: grid; grid-template-columns: .8fr 1.2fr; gap: 80px; padding: 54px 0 62px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.music-devotion .eyebrow { margin-top: 7px; }
+.music-devotion h2 { font-size: 31px; line-height: 1.25; max-width: 270px; margin-bottom: 0; }
+.music-devotion blockquote { color: var(--forest); font: 400 clamp(26px,2.8vw,37px)/1.45 var(--serif); letter-spacing: -.025em; }
+.music-devotion blockquote span { display: block; }
+.music-devotion blockquote em { color: var(--terracotta); font-weight: 400; }
+.music-devotion .quote-signature { display: block; margin-top: 18px; color: var(--muted); font: 11px/1.6 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
+.music-reflections { padding: 68px 0 60px; scroll-margin-top: 115px; }
+.music-reflections .section-heading { margin-bottom: 28px; }
+.music-reflections .section-heading h2 { font-size: clamp(30px,3.6vw,44px); }
+.music-reflections .section-heading > p { color: var(--muted); max-width: 300px; font-size: 14px; margin-bottom: 3px; }
+.music-switcher { display: flex; flex-wrap: wrap; gap: 0 25px; border-bottom: 1px solid var(--line); margin-bottom: 26px; }
+.music-tab { flex: 1 1 110px; position: relative; display: flex; gap: 12px; align-items: center; padding: 17px 0; border: 0; border-radius: 0; background: transparent; color: var(--muted); font-size: 14px; text-align: left; }
+.music-tab .tab-number { color: #848b7f; font-size: 10px; letter-spacing: .05em; }
+.music-tab::after { position: absolute; content: ''; bottom: -1px; left: 0; right: 0; height: 3px; background: var(--terracotta); transform: scaleX(0); transform-origin: left; transition: transform .16s; }
+.music-tab[aria-selected="true"] { color: var(--forest); font-weight: 650; }
+.music-tab[aria-selected="true"]::after { transform: scaleX(1); }
+.music-tab:hover { color: var(--forest); }
+.music-panels { display: grid; gap: 20px; }
+.music-reflection { display: grid; grid-template-columns: 120px minmax(0,1fr); align-items: start; gap: 40px; padding: 43px 50px; color: #e8e9dc; background: var(--forest); border-radius: 8px; min-height: 245px; }
+.music-reflection:focus-visible { outline-color: #c58b51; }
+.music-reflection-number { display: grid; place-items: center; width: 100px; height: 100px; border: 1px solid #7b9c83; border-radius: 50%; color: #d9d4af; font: italic 34px/1 var(--serif); }
+.music-reflection .eyebrow { color: #c5cfb4; font-size: 10px; margin-bottom: 12px; }
+.music-reflection h3 { color: #fff8e8; font-size: clamp(28px,3vw,38px); letter-spacing: -.035em; margin-bottom: 16px; }
+.music-reflection p:last-child { color: #d6dfd0; font-size: 16px; line-height: 1.8; max-width: 690px; }
+.music-reflection[data-feeling="sorrow"] { background: #294d48; }
+.music-reflection[data-feeling="happiness"] { background: #3c5c43; }
+.music-coda { display: grid; grid-template-columns: .8fr 1.2fr; align-items: start; gap: 80px; padding: 49px 0 18px; border-top: 1px solid var(--line); }
+.music-coda h2 { font-size: clamp(35px,4vw,48px); margin: 0; }
+.music-coda-copy { color: var(--muted); font-size: 17px; line-height: 1.8; }
+.music-coda-copy p { max-width: 620px; }
+.music-listen-links { display: flex; flex-wrap: wrap; gap: 14px 22px; margin-top: 24px; }
+.music-listen-links:empty { display: none; }
+.music-listen-links .button { font-size: 12px; gap: 13px; }
+.music-listen-links .text-link { font-size: 12px; }
+.music-listen-note { align-self: center; color: var(--muted); font-size: 11px; }
+
+@media (max-width: 1079px) {
+  .music-hero { gap: 40px; padding-top: 48px; }
+  .music-hero h1 { font-size: 60px; }
+  .music-artist { font-size: 29px; }
+  .music-hero .music-intro { font-size: 16px; }
+  .music-devotion, .music-coda { gap: 45px; }
+  .music-switcher { gap: 0 18px; }
+  .music-tab { flex-basis: 100px; }
+  .music-reflection { padding: 36px; gap: 28px; grid-template-columns: 95px minmax(0,1fr); }
+  .music-reflection-number { width: 85px; height: 85px; }
+}
+@media (max-width: 759px) {
+  .music-hero { grid-template-columns: 1fr; gap: 32px; padding: 43px 0 41px; }
+  .music-hero h1 { font-size: clamp(53px,12vw,74px); }
+  .music-artist { font-size: 29px; margin-bottom: 15px; }
+  .music-hero .music-intro { max-width: 560px; font-size: 17px; }
+  .music-art { border-top-left-radius: 75px; max-width: 520px; }
+  .music-art figcaption { padding: 16px 22px; font-size: 10px; letter-spacing: .06em; }
+  .music-devotion { grid-template-columns: 1fr; gap: 23px; padding: 34px 0 39px; }
+  .music-devotion .eyebrow { margin-top: 0; margin-bottom: 11px; }
+  .music-devotion h2 { max-width: none; font-size: 29px; }
+  .music-devotion h2 br { display: none; }
+  .music-devotion blockquote { font-size: clamp(25px,5.7vw,34px); line-height: 1.5; }
+  .music-reflections { padding: 43px 0 39px; scroll-margin-top: 95px; }
+  .music-reflections .section-heading > p { max-width: 450px; }
+  .music-switcher { gap: 0 16px; margin-bottom: 20px; }
+  .music-tab { flex-basis: 85px; padding: 14px 0; font-size: 13px; gap: 8px; }
+  .music-reflection { display: block; padding: 29px 26px 32px; min-height: 315px; }
+  .music-reflection-number { width: 50px; height: 50px; font-size: 22px; margin-bottom: 24px; }
+  .music-reflection h3 { font-size: 31px; }
+  .music-reflection p:last-child { font-size: 15px; line-height: 1.8; }
+  .music-coda { grid-template-columns: 1fr; gap: 19px; padding: 34px 0 0; }
+  .music-coda .eyebrow { margin-bottom: 12px; }
+  .music-coda-copy { font-size: 16px; }
+}
+@media (max-width: 379px) {
+  .music-hero h1 { font-size: 50px; }
+  .music-artist { font-size: 27px; }
+  .music-hero .music-intro { font-size: 16px; }
+  .music-art figcaption { padding-left: 19px; font-size: 9px; }
+  .music-devotion blockquote { font-size: 24px; }
+  .music-reflection { padding-left: 23px; padding-right: 23px; }
+  .music-reflection h3 { font-size: 29px; }
+  .music-tab { flex-basis: 80px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .music-tab::after { transition: none; }
+}

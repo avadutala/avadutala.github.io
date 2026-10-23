@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">Dil Se — original title artwork</title>
+<desc id="desc">Original heartbeat line meeting abstract railway tracks, in deep rose and amber. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#843b44"/>
+<text x="42" y="49" fill="#f3dec5" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#f3dec5" opacity=".75" font-family="Georgia,serif" font-size="17">18</text>
+<g clip-path="url(#art-window)">
+<circle cx="300" cy="280" r="161" fill="#9f4f4c"/>
+<path d="M93 365h88l43-85 45 150 49-234 46 169h143" fill="none" stroke="#f2c895" stroke-width="5" stroke-linejoin="round"/>
+<path d="m191 534 84-338m134 338-84-338" stroke="#d59a72" stroke-width="3" opacity=".6"/>
+<path d="M219 422h161m-150-45h139m-127-44h116m-102-45h89m-75-44h62" stroke="#d59a72" stroke-width="3" opacity=".35"/>
+<circle cx="298" cy="154" r="9" fill="#e7b185"/>
+</g>
+<path d="M42 590h516" stroke="#f3dec5" stroke-width="1" opacity=".35"/>
+<text fill="#f3dec5" font-family="Georgia,'Times New Roman',serif" font-size="67" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="676.0">Dil Se</tspan></text>
+<text x="42" y="770" fill="#f3dec5" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

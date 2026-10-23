@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">The Pianist — original title artwork</title>
+<desc id="desc">Original diagonal ivory and black piano keys emerging from a charcoal field. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#292c33"/>
+<text x="42" y="49" fill="#eee5d1" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#eee5d1" opacity=".75" font-family="Georgia,serif" font-size="17">06</text>
+<g clip-path="url(#art-window)">
+<path d="M89 480 233 145h277L367 480Z" fill="#e4dfcf"/>
+<path d="M126 480 270 145m-106 335 144-335M202 480 346 145M240 480 384 145M278 480 422 145M316 480 460 145" stroke="#575753" stroke-width="2"/>
+<path d="M258 145h24l-88 204h-24zm38 0h24l-88 204h-24zm76 0h24l-88 204h-24zm38 0h24l-88 204h-24zm38 0h24l-88 204h-24z" fill="#292c33"/>
+<path d="M72 513h397m-358 16h283" stroke="#b6a589" stroke-width="1.5" opacity=".6"/>
+<path d="M79 127v103m18-82v61m18-52v39m374 249v89m18-73v57" stroke="#b6a589" stroke-width="1.5" opacity=".4"/>
+</g>
+<path d="M42 590h516" stroke="#eee5d1" stroke-width="1" opacity=".35"/>
+<text fill="#eee5d1" font-family="Georgia,'Times New Roman',serif" font-size="56" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="676.0">The Pianist</tspan></text>
+<text x="42" y="770" fill="#eee5d1" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

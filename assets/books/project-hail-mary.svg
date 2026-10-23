@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+<title id="title">Project Hail Mary — original title artwork</title><desc id="desc">Original editorial illustration for Project Hail Mary, part of a personal reading notebook. This is not an official book cover.</desc>
+<!-- Original code-native editorial illustration. Not an official book cover. -->
+<defs><clipPath id="art-window"><rect x="36" y="91" width="528" height="420"/></clipPath></defs>
+<rect width="600" height="800" fill="#16433e"/>
+<path d="M19 0v800M26 0v800" stroke="#f0dfbf" stroke-width="1" opacity=".10"/>
+<text x="47" y="48" fill="#f0dfbf" font-family="Arial,sans-serif" font-size="11" letter-spacing="2" opacity=".78">SCIENCE FICTION</text>
+<text x="553" y="48" text-anchor="end" fill="#f0dfbf" font-family="Georgia,serif" font-size="17" opacity=".8">12</text>
+<g clip-path="url(#art-window)"><circle cx="93" cy="148" r="2" fill="#c4ccbb" opacity="0.8"/><circle cx="455" cy="120" r="2" fill="#c4ccbb" opacity="0.7"/><circle cx="492" cy="410" r="2" fill="#c4ccbb" opacity="0.8"/><circle cx="138" cy="430" r="1.5" fill="#c4ccbb" opacity="0.5"/><circle cx="353" cy="160" r="1" fill="#c4ccbb" opacity="0.8"/><circle cx="445" cy="268" r="1.5" fill="#c4ccbb" opacity="0.6"/><circle cx="178" cy="232" r="1" fill="#c4ccbb" opacity="0.6"/><circle cx="250" cy="475" r="2" fill="#c4ccbb" opacity="0.8"/><circle cx="519" cy="208" r="1" fill="#c4ccbb" opacity="0.5"/><circle cx="402" cy="191" r="43" fill="#e5c584" opacity="1"/><circle cx="402" cy="191" r="61" fill="none" stroke="#b89d6c" stroke-width="1" opacity="0.45"/><path d="M133 439C236 483 372 419 376 317S359 245 402 191" stroke="#9bb6ad" stroke-width="2" fill="none" stroke-dasharray="5 7"/><g transform="translate(233 388) rotate(36)"><path d="M0-67l21 50v60l-21 21-21-21v-60Z" fill="#e3d4b7"/><path d="M-21 12l-28 23v28l28-14M21 12l28 23v28L21 49" fill="#b28964"/><circle cy="-9" r="9" fill="#163b38"/><path d="M-11 69l11 32 11-32" fill="#c18b56"/></g></g>
+<path d="M47 537h506" stroke="#f0dfbf" stroke-width="1" opacity=".36"/>
+<text fill="#f0dfbf" font-family="Georgia,'Times New Roman',serif" font-size="66" font-weight="400" letter-spacing="-1.25"><tspan x="47" y="592.3">Project</tspan><tspan x="47" y="664.9">Hail Mary</tspan></text>
+<text x="49" y="733" fill="#f0dfbf" font-family="Arial,sans-serif" font-size="15" letter-spacing=".5" opacity=".88">Andy Weir</text>
+<text x="49" y="774" fill="#f0dfbf" font-family="Arial,sans-serif" font-size="9" letter-spacing="2.2" opacity=".62">VIDYA’S READING NOTEBOOK</text>
+</svg>

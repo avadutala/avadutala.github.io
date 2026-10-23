@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">The English Patient — original title artwork</title>
+<desc id="desc">Original layered desert dunes, a distant sun, and a simple aircraft silhouette. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#bc9068"/>
+<text x="42" y="49" fill="#f6e7c9" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#f6e7c9" opacity=".75" font-family="Georgia,serif" font-size="17">10</text>
+<g clip-path="url(#art-window)">
+<circle cx="402" cy="215" r="88" fill="#e2bd85"/>
+<path d="M0 352C158 225 252 280 600 370v190H0Z" fill="#a67653"/>
+<path d="M0 411c211 74 250-109 600-36v185H0Z" fill="#d1a475"/>
+<path d="M0 483c233-109 362-69 600 15v62H0Z" fill="#77543f"/>
+<path d="M121 191 302 169 465 200 303 194Z" fill="#5f4b3c"/><path d="m302 150-9 55 20 3-5-58Z" fill="#5f4b3c"/><path d="m292 205-33 17h80l-31-17" fill="#5f4b3c"/>
+<path d="M304 239v41m-8 19v15m-5 18v9" stroke="#6f533f" opacity=".6" stroke-width="2"/>
+</g>
+<path d="M42 590h516" stroke="#f6e7c9" stroke-width="1" opacity=".35"/>
+<text fill="#f6e7c9" font-family="Georgia,'Times New Roman',serif" font-size="51" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="645.0">The English</tspan><tspan x="42" y="703.1">Patient</tspan></text>
+<text x="42" y="770" fill="#f6e7c9" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

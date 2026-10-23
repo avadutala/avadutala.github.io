@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+<title id="title">The Grand Design — original title artwork</title><desc id="desc">Original editorial illustration for The Grand Design, part of a personal reading notebook. This is not an official book cover.</desc>
+<!-- Original code-native editorial illustration. Not an official book cover. -->
+<defs><clipPath id="art-window"><rect x="36" y="91" width="528" height="420"/></clipPath></defs>
+<rect width="600" height="800" fill="#575b4b"/>
+<path d="M19 0v800M26 0v800" stroke="#f0e4cc" stroke-width="1" opacity=".10"/>
+<text x="47" y="48" fill="#f0e4cc" font-family="Arial,sans-serif" font-size="11" letter-spacing="2" opacity=".78">SCIENCE &amp; COSMOS</text>
+<text x="553" y="48" text-anchor="end" fill="#f0e4cc" font-family="Georgia,serif" font-size="17" opacity=".8">06</text>
+<g clip-path="url(#art-window)"><circle cx="300" cy="296" r="156" fill="#ba9161" opacity="0.25"/><polygon points="300.0,296.0 367.5,257.0 367.5,179.0 300.0,140.0 232.5,179.0 232.5,257.0" fill="none" stroke="#e1d2b3" stroke-width="1.5" opacity=".65"/><polygon points="232.5,335.0 300.0,296.0 300.0,218.0 232.5,179.0 165.0,218.0 165.0,296.0" fill="none" stroke="#e1d2b3" stroke-width="1.5" opacity=".65"/><polygon points="367.5,335.0 435.0,296.0 435.0,218.0 367.5,179.0 300.0,218.0 300.0,296.0" fill="none" stroke="#e1d2b3" stroke-width="1.5" opacity=".65"/><polygon points="232.5,413.0 300.0,374.0 300.0,296.0 232.5,257.0 165.0,296.0 165.0,374.0" fill="none" stroke="#e1d2b3" stroke-width="1.5" opacity=".65"/><polygon points="367.5,413.0 435.0,374.0 435.0,296.0 367.5,257.0 300.0,296.0 300.0,374.0" fill="none" stroke="#e1d2b3" stroke-width="1.5" opacity=".65"/><polygon points="300.0,452.0 367.5,413.0 367.5,335.0 300.0,296.0 232.5,335.0 232.5,413.0" fill="none" stroke="#e1d2b3" stroke-width="1.5" opacity=".65"/><polygon points="300.0,374.0 367.5,335.0 367.5,257.0 300.0,218.0 232.5,257.0 232.5,335.0" fill="none" stroke="#e1d2b3" stroke-width="1.5" opacity=".65"/><circle cx="300" cy="296" r="78" fill="none" stroke="#bd7757" stroke-width="5" opacity="1"/><circle cx="300" cy="296" r="13" fill="#e6c58f" opacity="1"/></g>
+<path d="M47 537h506" stroke="#f0e4cc" stroke-width="1" opacity=".36"/>
+<text fill="#f0e4cc" font-family="Georgia,'Times New Roman',serif" font-size="61" font-weight="400" letter-spacing="-1.25"><tspan x="47" y="594.9">The Grand</tspan><tspan x="47" y="662.0">Design</tspan></text>
+<text x="49" y="733" fill="#f0e4cc" font-family="Arial,sans-serif" font-size="13.5" letter-spacing=".5" opacity=".88">Stephen Hawking &amp; Leonard Mlodinow</text>
+<text x="49" y="774" fill="#f0e4cc" font-family="Arial,sans-serif" font-size="9" letter-spacing="2.2" opacity=".62">VIDYA’S READING NOTEBOOK</text>
+</svg>

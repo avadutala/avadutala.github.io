@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">Nayakudu — original title artwork</title>
+<desc id="desc">Original layered city silhouette, with warm light against a restrained olive sky. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#685c49"/>
+<text x="42" y="49" fill="#eee2c5" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#eee2c5" opacity=".75" font-family="Georgia,serif" font-size="17">19</text>
+<g clip-path="url(#art-window)">
+<circle cx="341" cy="242" r="130" fill="#b38b59"/>
+<path d="M65 510V348h48v-61h65v104h39V261h67v89h47V308h61v65h39V252h62v120h42v138Z" fill="#3d463f"/>
+<path d="M78 509V426h79v-48h73v73h80v-44h68v33h62v-61h83v130Z" fill="#263d39"/>
+<path d="M95 365h16m31-57h14m87-18h12m-12 35h12m103 6h12m94-51h13m-13 35h13" stroke="#ddbd83" stroke-width="8"/>
+<path d="M67 537h466M126 552h354" stroke="#b9ab8a" stroke-width="2" opacity=".5"/>
+</g>
+<path d="M42 590h516" stroke="#eee2c5" stroke-width="1" opacity=".35"/>
+<text fill="#eee2c5" font-family="Georgia,'Times New Roman',serif" font-size="57" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="676.0">Nayakudu</tspan></text>
+<text x="42" y="770" fill="#eee2c5" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

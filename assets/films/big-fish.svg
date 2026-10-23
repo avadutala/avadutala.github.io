@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">Big Fish — original title artwork</title>
+<desc id="desc">Original golden fish suspended above a lyrical river, with small stars. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#245657"/>
+<text x="42" y="49" fill="#f0e2bc" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#f0e2bc" opacity=".75" font-family="Georgia,serif" font-size="17">14</text>
+<g clip-path="url(#art-window)">
+<path d="M0 395c110-51 163 48 279 0s190-21 321 0v167H0Z" fill="#346f6c"/>
+<path d="M46 444c94-28 142 34 242 1s159-20 269 8M70 485c86-15 163 33 252 0s143-13 206 4M92 522c65-16 127 14 202-5s114-10 180 5" stroke="#9db79b" stroke-width="2" fill="none" opacity=".5"/>
+<g transform="translate(298 288) rotate(-14)"><path d="M-158 0c90-103 189-92 257 0-68 92-167 103-257 0Z" fill="#d5a35d"/><path d="m95 0 95-72-7 144Z" fill="#b9834c"/><path d="M-21-67 26-117 56-56M-14 66 24 104 54 58" fill="#b9834c"/><circle cx="-95" cy="-10" r="8" fill="#294f4d"/><path d="M-46-57c-25 35-22 80 0 115m24-114c-25 35-22 80 0 115m24-108c-25 35-22 80 0 107" stroke="#f1c986" stroke-width="2" fill="none" opacity=".55"/></g>
+<path d="m147 122 5 13 14 4-14 5-5 13-5-13-13-5 13-4zm307 35 4 9 10 4-10 3-4 10-3-10-10-3 10-4z" fill="#e6c582"/>
+</g>
+<path d="M42 590h516" stroke="#f0e2bc" stroke-width="1" opacity=".35"/>
+<text fill="#f0e2bc" font-family="Georgia,'Times New Roman',serif" font-size="65" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="676.0">Big Fish</tspan></text>
+<text x="42" y="770" fill="#f0e2bc" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">Rear Window — original title artwork</title>
+<desc id="desc">Original apartment window grid with a few illuminated rooms and a distant abstract figure. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#243f43"/>
+<text x="42" y="49" fill="#eee6cd" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#eee6cd" opacity=".75" font-family="Georgia,serif" font-size="17">17</text>
+<g clip-path="url(#art-window)">
+<rect x="88" y="104" width="423" height="430" fill="#345352"/>
+<rect x="112" y="132" width="71" height="89" fill="#567775"/><path d="M147.5 132v89m-35.5-44.5h71" stroke="#243f43" stroke-width="5"/><rect x="212" y="132" width="71" height="89" fill="#567775"/><path d="M247.5 132v89m-35.5-44.5h71" stroke="#243f43" stroke-width="5"/><rect x="312" y="132" width="71" height="89" fill="#d8aa70"/><path d="M347.5 132v89m-35.5-44.5h71" stroke="#243f43" stroke-width="5"/><rect x="412" y="132" width="71" height="89" fill="#567775"/><path d="M447.5 132v89m-35.5-44.5h71" stroke="#243f43" stroke-width="5"/><rect x="112" y="258" width="71" height="89" fill="#d8aa70"/><path d="M147.5 258v89m-35.5-44.5h71" stroke="#243f43" stroke-width="5"/><rect x="212" y="258" width="71" height="89" fill="#567775"/><path d="M247.5 258v89m-35.5-44.5h71" stroke="#243f43" stroke-width="5"/><rect x="312" y="258" width="71" height="89" fill="#567775"/><path d="M347.5 258v89m-35.5-44.5h71" stroke="#243f43" stroke-width="5"/><rect x="412" y="258" width="71" height="89" fill="#567775"/><path d="M447.5 258v89m-35.5-44.5h71" stroke="#243f43" stroke-width="5"/><rect x="112" y="384" width="71" height="89" fill="#567775"/><path d="M147.5 384v89m-35.5-44.5h71" stroke="#243f43" stroke-width="5"/><rect x="212" y="384" width="71" height="89" fill="#567775"/><path d="M247.5 384v89m-35.5-44.5h71" stroke="#243f43" stroke-width="5"/><rect x="312" y="384" width="71" height="89" fill="#567775"/><path d="M347.5 384v89m-35.5-44.5h71" stroke="#243f43" stroke-width="5"/><rect x="412" y="384" width="71" height="89" fill="#d8aa70"/><path d="M447.5 384v89m-35.5-44.5h71" stroke="#243f43" stroke-width="5"/>
+<path d="M83 229h433M83 355h433M83 481h433" stroke="#182f35" stroke-width="5"/>
+<circle cx="398" cy="438" r="11" fill="#304545"/><path d="M384 473v-17a14 14 0 0 1 28 0v17" fill="#304545"/>
+</g>
+<path d="M42 590h516" stroke="#eee6cd" stroke-width="1" opacity=".35"/>
+<text fill="#eee6cd" font-family="Georgia,'Times New Roman',serif" font-size="54" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="676.0">Rear Window</tspan></text>
+<text x="42" y="770" fill="#eee6cd" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

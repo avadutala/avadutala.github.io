@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">Atonement — original title artwork</title>
+<desc id="desc">Original paper, an unsent envelope, and a fractured letter in muted green and cream. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#40524c"/>
+<text x="42" y="49" fill="#eee5cd" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#eee5cd" opacity=".75" font-family="Georgia,serif" font-size="17">09</text>
+<g clip-path="url(#art-window)">
+<g transform="rotate(-8 291 290)"><rect x="136" y="128" width="292" height="340" fill="#d8ceb4"/><path d="M168 178h216m-216 23h192m-192 23h208m-208 23h173m-173 23h211m-211 23h184m-184 23h204m-204 23h155" stroke="#8a9380" stroke-width="3"/><path d="m286 128-23 72 20 53-30 58 24 55-38 102" fill="none" stroke="#40524c" stroke-width="12"/></g>
+<g transform="rotate(10 345 428)"><path d="M199 354h282v169H199Z" fill="#b9b198"/><path d="m199 354 141 107 141-107M199 523l105-95m177 95-105-95" fill="none" stroke="#7b8d80" stroke-width="2"/></g>
+<path d="M98 134v312M85 167v235" stroke="#718878" opacity=".35"/>
+</g>
+<path d="M42 590h516" stroke="#eee5cd" stroke-width="1" opacity=".35"/>
+<text fill="#eee5cd" font-family="Georgia,'Times New Roman',serif" font-size="55" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="676.0">Atonement</tspan></text>
+<text x="42" y="770" fill="#eee5cd" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

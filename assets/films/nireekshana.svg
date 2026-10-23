@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">Nireekshana — original title artwork</title>
+<desc id="desc">Original misty forest layers and a pale sun in soft green tones. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#789188"/>
+<text x="42" y="49" fill="#eee7d0" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#eee7d0" opacity=".75" font-family="Georgia,serif" font-size="17">20</text>
+<g clip-path="url(#art-window)">
+<circle cx="314" cy="220" r="97" fill="#c3c9ad"/>
+<path d="M0 355c103-100 174 55 278-20s206-33 322 12v214H0Z" fill="#628375"/>
+<g transform="translate(92 370) scale(1.2)"><path d="m0-141-38 74h19l-39 71h43l-36 62h102L15 4h43L19-67h19Z" fill="#3d655b"/><path d="M0 40v35" stroke="#3d655b" stroke-width="8"/></g><g transform="translate(177 344) scale(1.5)"><path d="m0-141-38 74h19l-39 71h43l-36 62h102L15 4h43L19-67h19Z" fill="#3d655b"/><path d="M0 40v35" stroke="#3d655b" stroke-width="8"/></g><g transform="translate(275 368) scale(1.15)"><path d="m0-141-38 74h19l-39 71h43l-36 62h102L15 4h43L19-67h19Z" fill="#3d655b"/><path d="M0 40v35" stroke="#3d655b" stroke-width="8"/></g><g transform="translate(398 330) scale(1.6)"><path d="m0-141-38 74h19l-39 71h43l-36 62h102L15 4h43L19-67h19Z" fill="#3d655b"/><path d="M0 40v35" stroke="#3d655b" stroke-width="8"/></g><g transform="translate(507 360) scale(1.25)"><path d="m0-141-38 74h19l-39 71h43l-36 62h102L15 4h43L19-67h19Z" fill="#3d655b"/><path d="M0 40v35" stroke="#3d655b" stroke-width="8"/></g><g transform="translate(131 438) scale(1.5)"><path d="m0-141-38 74h19l-39 71h43l-36 62h102L15 4h43L19-67h19Z" fill="#254a45"/><path d="M0 40v35" stroke="#254a45" stroke-width="8"/></g><g transform="translate(324 423) scale(1.7)"><path d="m0-141-38 74h19l-39 71h43l-36 62h102L15 4h43L19-67h19Z" fill="#254a45"/><path d="M0 40v35" stroke="#254a45" stroke-width="8"/></g><g transform="translate(462 450) scale(1.4)"><path d="m0-141-38 74h19l-39 71h43l-36 62h102L15 4h43L19-67h19Z" fill="#254a45"/><path d="M0 40v35" stroke="#254a45" stroke-width="8"/></g>
+<path d="M58 411c120-23 263 24 484-5m-425 24c116-18 269 24 372-3" fill="none" stroke="#c9d0b8" stroke-width="10" opacity=".24"/>
+</g>
+<path d="M42 590h516" stroke="#eee7d0" stroke-width="1" opacity=".35"/>
+<text fill="#eee7d0" font-family="Georgia,'Times New Roman',serif" font-size="52" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="676.0">Nireekshana</tspan></text>
+<text x="42" y="770" fill="#eee7d0" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" fill="none" role="img" aria-labelledby="trail-title trail-desc">
+  <title id="trail-title">The joy of the trail</title>
+  <desc id="trail-desc">An original illustration of a mountain biker following a winding path through layered desert mountains beneath a warm sun.</desc>
+  <defs>
+    <linearGradient id="sky" x1="500" y1="0" x2="500" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4EDE0"/>
+      <stop offset="1" stop-color="#E9DDC4"/>
+    </linearGradient>
+    <linearGradient id="front" x1="190" y1="458" x2="876" y2="843" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5D7865"/>
+      <stop offset="1" stop-color="#2A5349"/>
+    </linearGradient>
+    <clipPath id="scene"><path d="M0 0h1000v800H0z"/></clipPath>
+  </defs>
+  <g clip-path="url(#scene)">
+    <path fill="url(#sky)" d="M0 0h1000v800H0z"/>
+    <circle cx="772" cy="143" r="75" fill="#D99660"/>
+    <circle cx="772" cy="143" r="94" stroke="#D99660" stroke-opacity=".18"/>
+    <path d="M-55 302 74 254 143 293 252 219 301 235 363 169 457 249 535 224 624 309 709 241 808 303 905 240 1036 311V539H-55Z" fill="#CEB59B"/>
+    <path d="m242 226 59 9 62-66 95 81-58-22-27 18-39-15-35 26Z" fill="#E0CDB3"/>
+    <path d="M-39 391 55 324 148 351 230 288 331 368 408 324 472 353 541 303 634 369 718 338 790 280 878 367 962 323 1040 356V582H-39Z" fill="#AF8E77"/>
+    <path d="m711 344 79-64 88 87-62-35-27 14-22-19Z" fill="#C5A48A"/>
+    <path d="M-35 431C51 398 104 429 181 402c68-24 96-21 164 13 68 35 112 25 169 1 83-35 147-24 215 0 92 31 153-28 306-23v407H-35Z" fill="#8D9B7E"/>
+    <path d="M-18 481c97-18 159-5 234 21 126 44 201-78 341-63 129 15 183 112 329 83 78-15 117-53 159-55v333H-18Z" fill="url(#front)"/>
+    <path d="M527 423c-27 14-33 27 4 40 38 13 119 12 142 32 43 36-50 80-117 118-106 60-128 123-40 193h141c-124-71-145-109-44-165 99-56 162-118 92-160-35-20-123-19-154-28-31-9-27-17-24-30Z" fill="#CBBE93"/>
+    <path d="M527 423c-22 16-20 25 16 34 46 11 120 12 145 34 50 45-48 92-118 134-103 62-104 116-23 181h77c-107-72-118-114-21-171 94-55 161-111 95-150-34-20-116-19-150-29-28-8-30-18-21-33Z" fill="#EAD9B2"/>
+    <g stroke="#A9B694" stroke-width="2" stroke-linecap="round" opacity=".42">
+      <path d="M-5 531c108-13 160 28 240 24 84-5 135-55 197-59"/>
+      <path d="M-24 565c121-26 178 33 265 19 75-11 128-57 196-61"/>
+      <path d="M-16 615c83-14 140 16 209 12 91-6 137-40 188-42"/>
+      <path d="M801 591c96 2 146-37 213-44"/>
+      <path d="M785 628c93 6 150-31 242-35"/>
+      <path d="M776 676c83 9 144-20 249-18"/>
+    </g>
+    <g fill="#47634F">
+      <path d="m139 448-7-27-6 25-8-10 6 19h20l6-16Z"/>
+      <path d="m384 477-5-21-5 20-8-8 6 15h16l5-15Z"/>
+      <path d="m829 466-5-20-6 20-8-9 5 16h20l5-18Z"/>
+    </g>
+    <ellipse cx="596" cy="619" rx="86" ry="8" fill="#586449" opacity=".22" transform="rotate(-32 596 619)"/>
+    <!-- Both tire contact points follow the uphill tangent of the trail. -->
+    <g transform="translate(535 620) rotate(-32)">
+      <g stroke="#233C34" stroke-width="6">
+        <circle r="29"/>
+        <circle cx="104" r="29"/>
+      </g>
+      <g stroke="#8A9476" stroke-width="1.4" opacity=".85">
+        <path d="M-24 0h48M0-24v48m-17-41 34 34m-34 0 34-34M80 0h48m-24-24v48m-17-41 34 34m-34 0 34-34"/>
+      </g>
+      <g stroke="#E7E4C9" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m0 0 30-45 23 45H0l-7-3m37-42 48 1-25 44m25-44 26 44M30-45l-4-10m52 11-4-12 9-5"/>
+      </g>
+      <g stroke="#233C34" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18-56h18m40-4 11-2"/>
+        <circle cx="53" r="5" fill="#233C34"/>
+        <path d="m53 0 7 7h10"/>
+      </g>
+      <path d="m38-63 1 25 21 12" stroke="#D6AB7E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="m33-69 21 26-6 32" stroke="#C28C63" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="m44-10 13 3m2-19 12 4" stroke="#233C34" stroke-width="7" stroke-linecap="round"/>
+      <path d="m51-106-15 15-14 24 17 7 20-31Z" fill="#C96943"/>
+      <path d="m24-68 15 8 7-10-15-10Z" fill="#253F35"/>
+      <path d="m56-96 12 18 17 14" stroke="#D6AB7E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="m57-96 8 12" stroke="#C96943" stroke-width="11" stroke-linecap="round"/>
+      <path d="m50-108 5-8" stroke="#C28C63" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="59" cy="-119" r="10" fill="#D6AB7E"/>
+      <path d="M48-122c1-10 14-14 22-6l2 8-24 1Z" fill="#263F36"/>
+      <path d="m68-120 7 1" stroke="#263F36" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <path d="M-20 704c81-51 114-50 190-16 67 30 96 67 182 112H-20Z" fill="#294F41"/>
+    <path d="M806 800c43-62 109-83 214-66v66Z" fill="#22483E"/>
+    <g stroke="#74916C" stroke-width="4" stroke-linecap="round">
+      <path d="M133 755v-66m0 43-19-21m19 12 17-26M852 778v-49m0 30-13-14m13 4 13-16"/>
+    </g>
+    <g fill="#879B76">
+      <ellipse cx="111" cy="706" rx="5" ry="13" transform="rotate(-39 111 706)"/>
+      <ellipse cx="151" cy="693" rx="5" ry="13" transform="rotate(29 151 693)"/>
+      <ellipse cx="133" cy="685" rx="5" ry="13"/>
+    </g>
+    <g fill="#D6BD8E" opacity=".65">
+      <path d="m318 689 8-5 9 6-10 2Z"/>
+      <path d="m753 579 8-3 6 5-11 1Z"/>
+      <path d="m413 595 6-4 8 4-7 3Z"/>
+    </g>
+  </g>
+</svg>

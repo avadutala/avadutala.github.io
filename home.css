@@ -1,0 +1,30 @@
+/* The homepage introduces the person, the work, and the music together. */
+.hero-copy .hero-role { max-width: 530px; margin: -7px 0 19px; color: var(--forest); font-size: 12px; line-height: 1.8; font-weight: 600; }
+.hero-copy .intro { font-size: 17px; }
+.home-music { display: grid; grid-template-columns: .85fr 1.15fr; align-items: center; overflow: hidden; border: 1px solid #d4d7c7; border-radius: 8px; background: #eeecdf; margin: 48px 0 18px; }
+.home-music-art { align-self: stretch; background: #e8ddc4; }
+.home-music-art img { width: 100%; height: 100%; object-fit: contain; }
+.home-music-copy { padding: 42px 48px; }
+.home-music-copy .eyebrow { margin-bottom: 15px; }
+.home-music-copy h2 { font-size: clamp(34px,3.3vw,44px); margin-bottom: 23px; }
+.home-music-copy blockquote { color: var(--forest); font: 29px/1.5 var(--serif); letter-spacing: -.025em; margin-bottom: 20px; }
+.home-music-copy > p:not(.eyebrow) { max-width: 470px; color: #586453; font-size: 15px; line-height: 1.8; }
+.home-music-copy .text-link { margin-top: 10px; }
+@media (max-width: 1079px) {
+  .home-music-copy { padding: 32px; }
+  .home-music-copy blockquote { font-size: 25px; }
+  .hero-copy .hero-role { font-size: 11px; }
+}
+@media (max-width: 759px) {
+  .hero-copy .hero-role { margin-top: -5px; font-size: 12px; max-width: 340px; }
+  .home-music { grid-template-columns: 1fr; margin-top: 34px; }
+  .home-music-copy { grid-row: 1; padding: 30px 28px 33px; }
+  .home-music-copy h2 { font-size: 34px; }
+  .home-music-copy blockquote { font-size: 25px; }
+  .home-music-art img { height: auto; max-height: 340px; object-fit: contain; }
+}
+@media (max-width: 379px) {
+  .home-music-copy { padding: 28px 23px 30px; }
+  .home-music-copy h2 { font-size: 31px; }
+  .home-music-copy blockquote { font-size: 23px; }
+}

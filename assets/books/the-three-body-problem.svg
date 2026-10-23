@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+<title id="title">The Three-Body Problem — original title artwork</title><desc id="desc">Original editorial illustration for The Three-Body Problem, part of a personal reading notebook. This is not an official book cover.</desc>
+<!-- Original code-native editorial illustration. Not an official book cover. -->
+<defs><clipPath id="art-window"><rect x="36" y="91" width="528" height="420"/></clipPath></defs>
+<rect width="600" height="800" fill="#232e43"/>
+<path d="M19 0v800M26 0v800" stroke="#e8dabd" stroke-width="1" opacity=".10"/>
+<text x="47" y="48" fill="#e8dabd" font-family="Arial,sans-serif" font-size="11" letter-spacing="2" opacity=".78">SCIENCE FICTION</text>
+<text x="553" y="48" text-anchor="end" fill="#e8dabd" font-family="Georgia,serif" font-size="17" opacity=".8">11</text>
+<g clip-path="url(#art-window)"><circle cx="93" cy="148" r="2" fill="#dfbd8c" opacity="0.8"/><circle cx="455" cy="120" r="2" fill="#dfbd8c" opacity="0.7"/><circle cx="492" cy="410" r="2" fill="#dfbd8c" opacity="0.8"/><circle cx="138" cy="430" r="1.5" fill="#dfbd8c" opacity="0.5"/><circle cx="353" cy="160" r="1" fill="#dfbd8c" opacity="0.8"/><circle cx="445" cy="268" r="1.5" fill="#dfbd8c" opacity="0.6"/><circle cx="178" cy="232" r="1" fill="#dfbd8c" opacity="0.6"/><circle cx="250" cy="475" r="2" fill="#dfbd8c" opacity="0.8"/><circle cx="519" cy="208" r="1" fill="#dfbd8c" opacity="0.5"/><path d="M142 244C88 407 455 453 456 254S138 154 142 244Z" stroke="#cbb48a" stroke-width="1.5" fill="none"/><path d="M229 168C65 312 355 519 438 320S315 93 229 168Z" stroke="#8ca7a8" stroke-width="1.3" fill="none" opacity=".7"/><circle cx="207" cy="239" r="58" fill="none" stroke="#dcac68" stroke-width="1" opacity="0.5"/><circle cx="207" cy="239" r="47" fill="#dcac68" opacity="1"/><circle cx="403" cy="269" r="45" fill="none" stroke="#b66e53" stroke-width="1" opacity="0.5"/><circle cx="403" cy="269" r="34" fill="#b66e53" opacity="1"/><circle cx="294" cy="393" r="35" fill="none" stroke="#e5cf97" stroke-width="1" opacity="0.5"/><circle cx="294" cy="393" r="24" fill="#e5cf97" opacity="1"/></g>
+<path d="M47 537h506" stroke="#e8dabd" stroke-width="1" opacity=".36"/>
+<text fill="#e8dabd" font-family="Georgia,'Times New Roman',serif" font-size="48" font-weight="400" letter-spacing="-1.25"><tspan x="47" y="601.5">The Three-Body</tspan><tspan x="47" y="654.3">Problem</tspan></text>
+<text x="49" y="733" fill="#e8dabd" font-family="Arial,sans-serif" font-size="15" letter-spacing=".5" opacity=".88">Cixin Liu</text>
+<text x="49" y="774" fill="#e8dabd" font-family="Arial,sans-serif" font-size="9" letter-spacing="2.2" opacity=".62">VIDYA’S READING NOTEBOOK</text>
+</svg>

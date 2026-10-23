@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-labelledby="title desc">
+<title id="title">Psycho — original title artwork</title>
+<desc id="desc">Original stark house silhouette crossed by an unsettling red fracture. This is original editorial artwork for a personal movie notebook, not an official film poster.</desc>
+<!-- Original code-native editorial title artwork. Not an official movie poster. -->
+<defs><clipPath id="art-window"><rect x="0" y="79" width="600" height="483"/></clipPath></defs>
+<rect width="600" height="800" fill="#dad4c5"/>
+<text x="42" y="49" fill="#2c3032" opacity=".68" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.2">A PERSONAL FILM NOTEBOOK</text>
+<text x="558" y="49" text-anchor="end" fill="#2c3032" opacity=".75" font-family="Georgia,serif" font-size="17">16</text>
+<g clip-path="url(#art-window)">
+<path d="M77 485 194 412 420 407 525 485Z" fill="#a8a89c"/>
+<path d="M179 411V226l119-91 121 91v185Z" fill="#353c3d"/>
+<path d="m149 238 149-117 151 117" fill="none" stroke="#353c3d" stroke-width="18"/>
+<path d="M232 293h43v61h-43zm89 0h43v61h-43zm-46-95h45v42h-45z" fill="#c5bda8"/>
+<path d="M270 411v-41h57v41" fill="#1d292d"/>
+<path d="m438 96-45 126 38 61-65 110 29 60-58 88" fill="none" stroke="#a2493f" stroke-width="11" stroke-linejoin="miter"/>
+<path d="M65 519h470" stroke="#979d92" stroke-width="2"/>
+</g>
+<path d="M42 590h516" stroke="#2c3032" stroke-width="1" opacity=".35"/>
+<text fill="#2c3032" font-family="Georgia,'Times New Roman',serif" font-size="68" font-weight="400" letter-spacing="-1.3"><tspan x="42" y="676.0">Psycho</tspan></text>
+<text x="42" y="770" fill="#2c3032" opacity=".65" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">STORIES THAT STAY WITH ME</text>
+</svg>

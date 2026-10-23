@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+<title id="title">Open — original title artwork</title><desc id="desc">Original editorial illustration for Open, part of a personal reading notebook. This is not an official book cover.</desc>
+<!-- Original code-native editorial illustration. Not an official book cover. -->
+<defs><clipPath id="art-window"><rect x="36" y="91" width="528" height="420"/></clipPath></defs>
+<rect width="600" height="800" fill="#263e39"/>
+<path d="M19 0v800M26 0v800" stroke="#f1e1bc" stroke-width="1" opacity=".10"/>
+<text x="47" y="48" fill="#f1e1bc" font-family="Arial,sans-serif" font-size="11" letter-spacing="2" opacity=".78">MEMOIR &amp; SPORT</text>
+<text x="553" y="48" text-anchor="end" fill="#f1e1bc" font-family="Georgia,serif" font-size="17" opacity=".8">13</text>
+<g clip-path="url(#art-window)"><g transform="translate(300 310) rotate(-16)"><rect x="-154" y="-157" width="308" height="314" rx="1" fill="#496f60"/><path d="M-127-134H127V134H-127ZM-89-134V134M89-134V134M-89-67H89M-89 67H89M0-67V67M-154 0H154" fill="none" stroke="#ede3c8" stroke-width="2"/><path d="M-154-7H154M-154 7H154" stroke="#ede3c8" stroke-width="1" opacity=".7"/></g><path d="M139 415C125 257 262 183 410 209" fill="none" stroke="#d6b777" stroke-width="2" stroke-dasharray="5 6"/><circle cx="416" cy="207" r="29" fill="#d8bc73" opacity="1"/><path d="M400 183q22 24 0 47M429 184q-20 23 0 47" stroke="#f5e6b7" stroke-width="2" fill="none"/></g>
+<path d="M47 537h506" stroke="#f1e1bc" stroke-width="1" opacity=".36"/>
+<text fill="#f1e1bc" font-family="Georgia,'Times New Roman',serif" font-size="83" font-weight="400" letter-spacing="-1.25"><tspan x="47" y="626.0">Open</tspan></text>
+<text x="49" y="733" fill="#f1e1bc" font-family="Arial,sans-serif" font-size="15" letter-spacing=".5" opacity=".88">Andre Agassi</text>
+<text x="49" y="774" fill="#f1e1bc" font-family="Arial,sans-serif" font-size="9" letter-spacing="2.2" opacity=".62">VIDYA’S READING NOTEBOOK</text>
+</svg>
